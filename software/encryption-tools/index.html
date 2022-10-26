@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="privacy, anonimato, privacy tools, sorveglianza, crittografia">
+	<meta name="description" content="Scopri tutti i modi gratuiti, open source, e sicuri per crittografare le tue informazioni sensibili e tenerle al sicuro da occhi indiscreti.">
+	<link rel="canonical" href="https://privacytools-it.github.io/software/encryption-tools/">
+
+	<!-- title -->
+	
+	<title>Strumenti per la Crittografia | PrivacyTools-IT</title>
+	<meta property="og:title" content="Strumenti per la Crittografia | PrivacyTools-IT" />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://privacytools-it.github.io/software/encryption-tools/" />
+	<meta property="og:image" content="https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png" />
+	<meta property="og:description" content="Scopri tutti i modi gratuiti, open source, e sicuri per crittografare le tue informazioni sensibili e tenerle al sicuro da occhi indiscreti."/>
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:site_name" content="PrivacyTools-IT" />
+
+	
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+	<link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+	<link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+	<link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/png/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#343a40">
+
+	<!-- CSS stylesheets -->
+	<link href="/assets/css/style.css?v=6" rel="stylesheet">
+	<link id="dark-css" href="/assets/css/dark.css?v=5" rel="stylesheet" media="(prefers-color-scheme: dark)">
+
+	
+	<!-- EOL redirect -->
+	<meta http-equiv="refresh" content="0; url=https://privacytools-it.github.io">
+	<script>location = "https://privacytools-it.github.io"</script>
+	
+</head>
+
+	<body data-spy="scroll" data-target="#navbar">
+		<script src="/assets/js/applytheme.js?v=1"></script>
+		<header>
+			<div class="fixed-top bg-dark">
+	<nav id="navbar">
+
+	<input type="checkbox" id="nav-toggle" checked />
+	<label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+	<a id="nav-home-mobile" class="nav-anchor" href="/index.html"><img src="/assets/img/png/layout/brand/horizontal.png" width="148px" height="22px"></a>
+
+	<div class="menu">
+		<div id="nav-left" class="position-relative flex-col">
+			<a class="nav-anchor" href="/index.html"> <span id="nav-home" class="fas fa-home fa-fw"></span></a>
+
+			<!-- Provider -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Provider <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Evita i servizi USA & UK</a>
+				<a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Aggregatori Social di Notizie</a>
+				<a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+				<a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+				<a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+				<a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Hosting</a>
+				<a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Motori di Ricerca</a>
+				<a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebin</a>
+				<a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Network</a>
+				<a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+				</span>
+			</details>
+
+			<!-- Browser -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Browser <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> Consigli</a>
+				<a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Informazioni sul Fingerprinting</a>
+				<a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> IP Leak WebRTC</a>
+				<a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> Estensioni dei Browser</a>
+				<a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> Modifiche a Firefox</a>
+				</span>
+			</details>
+
+			<!-- Software -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Software <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Appunti Digitali</a>
+				<a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Client Email</a>
+				<a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Comunicazione in Tempo Reale</a>
+				<a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> Condivisione File</a>
+				<a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> Crittografia File</a>
+				<a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+				<a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Produttività</a>
+				<a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Reti Autonome</a>
+				<a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Rimozione Metadati</a>
+				<a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Server Cloud Self-Hosted</a>
+				<a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Sincronizzazione Calendario/Contatti</a>
+				<a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Sincronizzazione File</a>
+				</span>
+			</details>
+
+			<!-- OS -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					OS <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> SO PC</a>
+				<a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> SO PC Live</a>
+				<a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> SO Mobile</a>
+				<a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> Add-on per Android</a>
+				<a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware per Router</a>
+				<a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> Non usare Windows 10</a>
+				</span>
+			</details>
+
+			<a class="nav-anchor" href="/index.html#participate">Partecipa</a>
+		</div>
+
+		<!-- Elements on the right -->
+		<div id="nav-right">
+			<a href="/services/" class="nav-anchor">Servizi</a>
+			<a href="https://blog.privacytools.io/" class="nav-anchor">Blog</a>
+			<a href="https://www.privacytools.io/sponsors/" class="nav-anchor">Sponsor</a>
+			<a href="/about/" class="nav-anchor">Su di Noi</a>
+			<span id="nav-switch-theme" class="nav-anchor">
+				<span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Tema"></span>
+				<span class="sr-only">Cambia Tema</span>
+			</span>
+			<details class="nav-details">
+				<summary>
+					<span class="nav-summary">
+						<!-- Language (not localized on purpose) -->
+						<span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+						<span class="sr-only">Language Selection</span>
+						<span class="dropdown-toggle"></span>
+					</span>
+				</summary>
+				<span class="nav-dropdown">
+					<a href="https://www.privacytools.io/" class="dropdown-item">English</a>
+					<a href="https://privacytools.twngo.xyz/" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+					<a href="https://victorhck.gitlab.io/privacytools-es/" rel="nofollow noopener" class="dropdown-item">Español</a>
+					<a href="https://pl.privacytools.io/" rel="nofollow noopener" class="dropdown-item">Polski</a>
+					<a href="https://www.privacidade.digital/" rel="nofollow noopener" class="dropdown-item">Português</a>
+					<a href="https://privacytools.it-sec.rocks/" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+					<a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
+					<a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
+				</span>
+			</details>
+		</div>
+	</div>
+	</nav>
+</div>
+
+			<div id="top" class="py-4"></div>
+		</header>
+		<div class="container" role="main">
+  <main>
+  <nav id="breadcrumb" aria-label="breadcrumb">
+	
+	<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="breadcrumb-item"><a href="/"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+		
+			
+				<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a href="/software/" itemprop="item"><span itemprop="name">Software</span></a>
+				<meta itemprop="position" content="1" />
+				</li>
+			
+		
+			
+				<li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<link href="/software/encryption-tools/" itemprop="item"/>
+				<span itemprop="name">Encryption Tools </span>
+				<meta itemprop="position" content="2" />
+				</li>
+			
+		
+	</ol>
+</nav>
+
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Strumenti per la Crittografia</h1>
+  <p class="lead">Scopri tutti i modi gratuiti, open source, e sicuri per crittografare le tue informazioni sensibili e tenerle al sicuro da occhi indiscreti.</p>
+</div>
+
+<h1 id="encrypt" class="anchor"><a href="#encrypt"><i class="fas fa-link anchor-icon"></i></a> Software per Crittografare File</h1>
+
+<div class="alert alert-warning" role="alert"><strong>Se in questo momento non stai utilizzando alcun software per crittografare i tuoi dischi, email o file dovresti sceglierne uno da questa lista.</strong></div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		VeraCrypt - Crittografia Dischi
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/veracrypt.svg"
+		
+        data-theme-src="/assets/img/svg/3rd-party/veracrypt-dark.svg"
+        
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo VeraCrypt - Crittografia Dischi"
+		>
+		<strong>VeraCrypt</strong> è un software open source gratuito utilizzato per la crittografia al volo. Può creare un disco virtuale criptato all'interno di un file, criptare una partizione o l'intero disco con l'autenticazione prima dell'avvio. VeraCrypt è un fork dell'ora in disuso TrueCrypt. Fu rilasciato per la prima volta il 22 Giugno 2013. Secondo gli sviluppatori, sono stati implementati migliorie alla sicurezza e tutti i problemi evidenziati dall'audit del codice di TrueCrypt sono stati risolti.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://veracrypt.fr/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-veracrypt-file-encryption/1532"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.veracrypt.fr/en/Downloads.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.veracrypt.fr/en/Downloads.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.veracrypt.fr/en/Downloads.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+			<a href="https://www.veracrypt.fr/code/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		GNU Privacy Guard - Crittografia Email
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/gnupg.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo GNU Privacy Guard - Crittografia Email"
+		>
+		<strong>GnuPG</strong> GnuPG è un'alternativa sotto licenza GPL alla suite crittografica PGP. GnuPG segue RFC 4880, l'attuale standard IETF che segue le specifiche di OpenPGP. Le versioni correnti di PGP (Filecrypt di Veridis) possono operare con GnuPG ed altri sistemi compatibili OpenPGP. GnuPG è parte del progetto GNU della Free Software Foundation, ed ha ricevuto grossi finanziamenti dal Governo Tedesco. <a href="https://gpgtools.org/">GPGTools per macOS</a>.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://gnupg.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-gnupg-file-encryption/1533"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://gpg4win.org/download.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://gpgtools.org/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://gnupg.org/download/index.html#binary" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.freshports.org/security/gnupg/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://openports.se/security/gnupg" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://pkgsrc.se/security/gnupg" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/app/org.sufficientlysecure.keychain" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+			<a href="https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		PeaZip - Crittografia Archivi
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/peazip.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo PeaZip - Crittografia Archivi"
+		>
+		<strong>PeaZip</strong> è un gestore di file ed archivi gratuito ed open source creato da Giorgio Tani. Supporta il suo formato archivio nativo PEA (compressione, divisione in più volumi, crittografia autenticata flessibile e schemi per la verifica dell'integrità) ed altri formati mainstream, con un'attenzione particolare ai formati aperti. Supporta anche più di 180 formati di archiviazione.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="http://www.peazip.org"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-peazip-file-encryption/1534"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.peazip.org/peazip-64bit.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://www.peazip.org/peazip-linux.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.freshports.org/archivers/peazip/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.peazip.org/peazip-bsd.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.peazip.org/peazip-bsd.html" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+			
+			<a href="https://osdn.net/projects/peazip" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+			</a>
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h3>Vale la Pena Menzionare</h3>
+
+<ul>
+<li><a href="https://cryptomator.org/">Cryptomator</a> - Crittografia AES lato client gratuita per i tuoi file sul cloud. Software open source: Nessuna backdoor, nessuna registrazione. <span class="badge badge-warning" data-toggle="tooltip" title="Le applicazioni mobile di Cryptomator non sono open source."><a href="https://github.com/cryptomator/cryptomator-android/issues/1#issuecomment-257979375"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+<li><a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - Sistema di crittografia dell'intero disco su Linux che utilizza dm-crypt come backend. Incluso con Ubuntu. Disponibile per Windows e Linux.</li>
+<li><a href="https://hat.sh/">Hat.sh</a> - Web app serverless in JavaScript multi-piattaforma che permette la crittografia dei file in modo sicuro utilizzando l'algoritmo AES-256-GCM nel tuo browser. Può inoltre essere scaricata ed utilizzata offline.</li>
+<li><a href="https://www.keka.io/">Keka</a> - Un gestore di archivi open source per macOS che permette di crittografare file.</li>
+</ul>
+
+
+
+  </main>
+  <footer>
+  <footer>
+<hr class="footer-divider" />
+
+<h3 id="participate">Spargi la voce ed aiuta i tuoi amici</h3>
+
+<div class="row mb-4">
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="mailto:?subject=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&body=https://privacytools-it.github.io" class="share-btn email" title="Email">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://privacytools-it.github.io" class="share-btn facebook" title="Facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://twitter.com/share?text=Conoscenza%20e%20strumenti%20per%20proteggere%20la%20tua%20privacy%20contro%20la%20sorveglianza%20di%20massa%20globale%20&amp;url=https://privacytools-it.github.io&amp;via=privacytoolsIO" class="share-btn twitter" title="Twitter">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="https://sharetomastodon.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn mastodon" title="Mastodon">
+<i class="fab fa-mastodon"></i>
+</a>
+</div>
+
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="https://reddit.com/submit?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn reddit" title="reddit">
+<i class="fab fa-reddit-alien"></i>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn linkedin" title="LinkedIn">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://mix.com/mixit?su=submit&url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn mix" title="Mix">
+<i class="ptio-mix"></i>
+</a>
+
+<a href="https://sharetodiaspora.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn diaspora" title="Diaspora*">
+<i class="fas fa-asterisk"></i>
+</a>
+</div>
+</div>
+
+<h3>Copia l'URL e la Descrizione</h3>
+
+<p>
+<input type="text" value="PrivacyTools - Crittografia e strumenti per la protezione contro la sorveglianza di massa globale - https://privacytools-it.github.io" class="form-control input-lg onclick-select" readonly>
+<span class="help-block">Clicca sul campo di testo per selezionare tutto il suo contenuto.</span>
+</p>
+
+<hr class="footer-divider">
+
+<div class="row mt-3">
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+<a href="/LICENSE.txt" title="Quest'opera è libera. La puoi redistribuire e/o modificare secondo i termini di licenza &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;." data-toggle="tooltip" data-placement="top">CC0</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="far fa-address-card fa-2x mr-2"></span> <a href="/about/">Chi Siamo &amp; Contatti</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fas fa-donate fa-2x mr-2"></span><a data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta questo progetto con una donazione. Non abbiamo pubblicità e non siamo affiliati con nessun servizio. La tua donazione coprirà i costi per server e domini." href="/donate/">Supportaci!</a>
+</div>
+</div>
+
+<br>
+
+<p>Ho deciso di tradurre <a href="https://www.privacytools.io/">PrivacyTools</a> per poter rendere accessibili alla comunità italiana le informazioni e gli strumenti per proteggersi contro la sorveglianza di massa globale nella società tecnologica attuale.</p>
+
+<p><strong>Questo sito è una traduzione.</strong> Puoi seguire tutte le "commit" del sito originale in Inglese - che verranno integrate in questa versione tradotta - <a href="https://github.com/privacytoolsIO/privacytools.io/commits/master">su GitHub</a>.
+Se vuoi contribuire a PrivacyTools con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo <a href="https://github.com/privacytoolsIO/privacytools.io">tramite GitHub</a> o <a href="https://www.reddit.com/r/privacytoolsIO/">Reddit</a>.</p>
+
+<p>Se hai trovato uno o più errori di traduzione o un problema con questa versione del sito, <a href="/about/">contattami</a>.</p>
+
+<p><a href="https://github.com/privacytools-it/privacytools-it.github.io/commits/master">
+	Ultima modifica al sito:
+	30
+	
+	
+	2020
+</a></p>
+
+<div class="copyright-text">
+	<a href="/about/javascript" data-jslicense="1"><span class="fab fa-js fa-lg"></span> Licenze JavaScript</a>
+	<p class="mt-2">
+		<strong>Nessuna pubblicità, niente Google Analytics, nessuna affiliazione, nessuna richiesta cross-site.</strong>
+		<em>PrivacyTools è un sito motivato dalla comunità che mette a disposizione informazioni sulla sicurezza dei dati e privacy. Non fidarti mai di nessuna compagnia quando si tratta della tua privacy, cripta sempre.</em>
+	</p>
+	<small><p><a href="/privacy/">Informativa sulla Privacy</a> | <a href="/notices/">Avvisi &amp; Liberatorie</a></small>
+</div>
+</footer>
+
+  </footer>
+</div>
+
+		<script src="/assets/js/jquery-3.3.1.min.js?v=2"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/sortable.min.js?v=2"></script>
+<script src="/assets/js/main.js?v=4"></script>
+
+	</body>
+</html>

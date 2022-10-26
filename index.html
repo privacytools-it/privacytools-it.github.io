@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="privacy, anonimato, privacy tools, sorveglianza, crittografia">
+  <meta name="description" content="Sei sorvegliato. PrivacyTools mette a disposizione conoscenza, crittografia e strumenti per proteggere la tua privacy contro la sorveglianza di massa globale.">
+  <link rel="canonical" href="https://privacytools-it.github.io/">
+  <!-- title -->
+  <title>PrivacyTools - Protezione Contro la Sorveglianza di Massa Globale</title>
+  <meta property="og:title" content="PrivacyTools - Protezione Contro la Sorveglianza di Massa Globale" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://privacytools-it.github.io" />
+  <meta property="og:image" content="https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png" />
+  <meta property="og:description" content="Sei sorvegliato. PrivacyTools mette a disposizione conoscenza, crittografia e strumenti per proteggere la tua privacy contro la sorveglianza di massa globale." />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="PrivacyTools-IT" />
+  <script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "PrivacyTools-IT",
+			"description": "Sei sorvegliato. PrivacyTools mette a disposizione conoscenza, crittografia e strumenti per proteggere la tua privacy contro la sorveglianza di massa globale.",
+			"alternateName": [
+				"privacytools-it",
+				"Privacy Tools IT",
+				"privacytoolsIT"
+			],
+			"url": "https://privacytools-it.github.io",
+			"logo": "https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png",
+			"sameAs": [
+				"https://github.com/privacytools-it"
+			]
+		}
+	</script>
+  <!-- icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+  <link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/img/png/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#343a40">
+  <!-- CSS stylesheets -->
+  <link href="/assets/css/style.css?v=6" rel="stylesheet">
+  <link id="dark-css" href="/assets/css/dark.css?v=5" rel="stylesheet" media="(prefers-color-scheme: dark)">
+</head>
+<body data-spy="scroll" data-target="#navbar">
+  <script src="/assets/js/applytheme.js?v=1"></script>
+  <header>
+    <div class="fixed-top bg-dark">
+      <nav id="navbar">
+        <input type="checkbox" id="nav-toggle" checked />
+        <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+        <a id="nav-home-mobile" class="nav-anchor" href="/index.html"><img src="/assets/img/png/layout/brand/horizontal.png" width="148px" height="22px"></a>
+        <div class="menu">
+          <div id="nav-left" class="position-relative flex-col">
+            <a class="nav-anchor" href="/index.html"> <span id="nav-home" class="fas fa-home fa-fw"></span></a>
+            <!-- Provider -->
+            <details class="nav-details">
+              <summary>
+                <span class="nav-summary">
+                  Provider <span class="dropdown-toggle"></span>
+                </span>
+              </summary>
+              <span class="nav-dropdown">
+                <a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Evita i servizi USA & UK</a>
+                <a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Aggregatori Social di Notizie</a>
+                <a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+                <a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+                <a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+                <a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Hosting</a>
+                <a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Motori di Ricerca</a>
+                <a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebin</a>
+                <a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Network</a>
+                <a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+              </span>
+            </details>
+            <!-- Browser -->
+            <details class="nav-details">
+              <summary>
+                <span class="nav-summary">
+                  Browser <span class="dropdown-toggle"></span>
+                </span>
+              </summary>
+              <span class="nav-dropdown">
+                <a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> Consigli</a>
+                <a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Informazioni sul Fingerprinting</a>
+                <a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> IP Leak WebRTC</a>
+                <a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> Estensioni dei Browser</a>
+                <a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> Modifiche a Firefox</a>
+              </span>
+            </details>
+            <!-- Software -->
+            <details class="nav-details">
+              <summary>
+                <span class="nav-summary">
+                  Software <span class="dropdown-toggle"></span>
+                </span>
+              </summary>
+              <span class="nav-dropdown">
+                <a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Appunti Digitali</a>
+                <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Client Email</a>
+                <a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Comunicazione in Tempo Reale</a>
+                <a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> Condivisione File</a>
+                <a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> Crittografia File</a>
+                <a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+                <a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Produttività</a>
+                <a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Reti Autonome</a>
+                <a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Rimozione Metadati</a>
+                <a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Server Cloud Self-Hosted</a>
+                <a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Sincronizzazione Calendario/Contatti</a>
+                <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Sincronizzazione File</a>
+              </span>http
+            </details>
+            <!-- OS -->
+            <details class="nav-details">
+              <summary>
+                <span class="nav-summary">
+                  OS <span class="dropdown-toggle"></span>
+                </span>
+              </summary>
+              <span class="nav-dropdown">
+                <a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> SO PC</a>
+                <a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> SO PC Live</a>
+                <a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> SO Mobile</a>
+                <a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> Add-on per Android</a>
+                <a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware per Router</a>
+                <a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> Non usare Windows 10</a>
+              </span>
+            </details>
+            <a class="nav-anchor" href="/index.html#participate">Partecipa</a>
+          </div>
+          <!-- Elements on the right -->
+          <div id="nav-right">
+            <a href="/services/" class="nav-anchor">Servizi</a>
+            <a href="#" class="nav-anchor">Blog</a>
+            <a href="#" class="nav-anchor">Sponsor</a>
+            <a href="/about/" class="nav-anchor">Su di Noi</a>
+            <span id="nav-switch-theme" class="nav-anchor">
+              <span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Tema"></span>
+              <span class="sr-only">Cambia Tema</span>
+            </span>
+            <details class="nav-details">
+              <summary>
+                <span class="nav-summary">
+                  <!-- Language (not localized on purpose) -->
+                  <span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+                  <span class="sr-only">Language Selection</span>
+                  <span class="dropdown-toggle"></span>
+                </span>
+              </summary>
+              <span class="nav-dropdown">
+                <a href="#" class="dropdown-item">English</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Español</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Polski</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Português</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Русский</a>
+                <a href="#" rel="nofollow noopener" class="dropdown-item">Français</a>
+              </span>
+            </details>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="top" class="py-4"></div>
+  </header>
+  <div class="container" role="main">
+    <main>
+      <script src="/assets/js/redirects.js"></script>
+      <!--
+  EOL Notice
+  ⚠ Outdated localization
+  I'm sorry, but unfortunately I will no longer update the italian version of the site with the current method, which consists in manually editing HTML files.
+  We need help with privacytools.io#1106 on GitHub to facilitate the localization process. Thank you! 
+-->
+      <div class="jumbotron p-5">
+        <h1 class="display-4">
+          <a href="https://privacytools-it.github.io" title="PrivacyTools-IT">
+            <img class="img-fluid d-none d-sm-block" src="/assets/img/png/layout/brand/horizontal.png" width="600px" alt="PrivacyTools-IT">
+            <div class="text-center"><img class="img-fluid d-sm-none" src="/assets/img/png/layout/brand/vertical.png" width="300px" alt="PrivacyTools-IT"></div>
+          </a>
+        </h1>
+        <p class="lead">Sei sorvegliato. Aziende finanziate dallo stato e private monitorano e registrano la tua attività in rete. PrivacyTools mette a disposizione servizi, strumenti e conoscenza proteggere la tua privacy contro la sorveglianza di massa globale.</p>
+      </div>
+      <form method="POST" action="#" id="search_form" role="search">
+        <div class="input-group col-12 col-md-8 offset-md-2">
+          <input type="search" name="q" class="form-control input-lg" id="q" placeholder="Prova PrivacyTools Search, un motore di ricerca che rispetta la privacy." autocomplete="off" value="">
+          <span class="input-group-btn"><button type="submit" class="btn btn-primary input-lg"><span class="hide_if_nojs"><i class="fas fa-search"></i> </span><span class="hidden active_if_nojs">Avvia ricerca</span></button></span>
+        </div>
+      </form>
+      <h1 id="os" class="anchor">Strumenti per la Privacy</h1>
+      <p><a href="/classic/"><i class="fas fa-info-circle"></i> Preferisci il sito web classico? Visualizza il sito in una singola pagina.</a></p>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-success">
+            <div class="card-header text-white bg-success">
+              <h3 class="h5">Provider</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="fas fa-server panel-icon text-dark"></i>
+                Scopri servizi online focalizzati sulla privacy, inclusi servizi email, operatori VPN, amministratori DNS, e altri ancora!
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-success mb-1" href="/providers/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-primary">
+            <div class="card-header text-white bg-primary">
+              <h3 class="h5">Browser Web</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="far fa-compass panel-icon text-dark"></i>
+                Trova un browser che rispetta la tua privacy, e scopri come rafforzare il tuo browser contro tracking e leak.
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-primary mb-1" href="/browsers/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-warning">
+            <div class="card-header text-dark bg-warning">
+              <h3 class="h5">Software</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="far fa-window-restore panel-icon text-dark"></i>
+                Scopri una varietà di software open source costruiti per proteggere la tua privacy e tenere i tuoi dati al sicuro.
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-warning mb-1" href="/software/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-info">
+            <div class="card-header text-white bg-info">
+              <h3 class="h5">Sistemi Operativi</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="fas fa-desktop panel-icon text-dark"></i>
+                Scopri come il tuo sistema operativo sta compromettendo la tua privacy, e quali altre semplici alternative esistono.
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-info mb-1" href="/operating-systems/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-secondary">
+            <div class="card-header text-white bg-secondary">
+              <h3 class="h5">Servizi di PrivacyTools</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="far fa-eye-slash panel-icon text-dark"></i>
+                Il team di PrivacyTools è fiero di lanciare vari servizi online focalizzati sulla privacy, inclusa un'istanza Mastodon, un motore di ricerca, e altri ancora!
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-secondary mb-1" href="/services/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-danger">
+            <div class="card-header text-white bg-danger">
+              <h3 class="h5">Dona</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <i class="fas fa-donate panel-icon text-dark"></i>
+                Non possiamo operare questo sito senza dei generosi contributi che riceviamo da chi ci legge. Se ami la privacy ed il nostro sito per favore considera una donazione.
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-danger mb-1" href="/donate/">
+                    Scopri di Più
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-header">
+        <h1>Privacy? Io non ho niente da nascondere.</h1>
+      </div>
+      <blockquote class="blockquote">
+        <p><a href="#" title="Glenn Greenwald - Perché la Privacy Conta - TED Talk"><img src="/assets/img/png/layout/glenn_greenwald.png" width="170" class="img-fluid float-right ml-2" alt="Glenn Greenwald: Perché la Privacy è Importante"></a>
+          Durante gli ultimi 16 mesi, discutendo di questo argomento in giro per il mondo, ogni volta qualcuno mi ha detto: "L'invasione della privacy non mi preoccupa perché non ho niente da nascondere". Rispondo sempre la stessa cosa.
+          Prendo una penna, scrivo il mio indirizzo email e dico: "Ecco il mio indirizzo email. Quello che voglio che tu faccia quando torni a casa è mandarmi le password di tutti i tuoi account email, non solo quella elegante e rispettabile che
+          usi per lavoro, ma tutte quante, perché voglio essere in grado di scandagliare quello che fai online, leggere quello che voglio e pubblicare tutto quello che trovo interessante. Dopo tutto, se non sei una persona cattiva, se non fai niente
+          di sbagliato, non dovresti avere niente da nascondere." <strong>Nessuno ha accettato la mia offerta.</strong></p>
+        <footer class="blockquote-footer">Glenn Greenwald in <cite title="Perché la Privacy Conta - TED Talk"><a href="https://www.ted.com/talks/glenn_greenwald_why_privacy_matters">Perché la Privacy Conta - TED Talk</a></cite></footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>La vera ragione per la quale abbiamo le tende nelle nostre case, è per impedire alle persone di guardare dentro. La ragione per la quale non vogliamo che ci vedano è perché consideriamo privato quello che facciamo dentro casa. Che sia cenare,
+          guardare un film con i propri figli oppure impegnarsi in atti intimi o sessuali con il proprio partner. Nessuna di queste cose è illegale, per niente, e nonostante questo abbiamo ancora tende e persiane sulle nostre finestre. Abbiamo chiaramente
+          un forte desiderio di privacy quando si tratta di vita privata e il pubblico.</p>
+        <footer class="blockquote-footer">Joshua in <cite title="The Crypto Paper"><a href="#">The Crypto Paper</a></cite></footer>
+      </blockquote>
+      <h4>Leggi anche:</h4>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Nothing_to_hide_argument">Niente da Nascondere (Wikipedia - In Inglese)</a></li>
+        <li><a href="#">Come rispondete alla frase "Io non ho niente da nascondere"? (reddit.com - In Inglese)</a></li>
+        <li><a href="#">'Io non ho Niente da Nascondere' e Altri Malintesi sulla Privacy (Daniel J. Solove - San Diego Law Review - In Inglese)</a></li>
+      </ul>
+      <h1 id="quotes" class="anchor"><a href="#quotes"><i class="fas fa-link anchor-icon"></i></a> Citazioni</h1>
+      <blockquote class="blockquote">
+        <p>Dire che non ti interessa del diritto alla privacy perché non hai niente da nascondere non è diverso dal dire che non ti interessa della libertà di espressione perché non hai niente da dire.</p>
+        <footer class="blockquote-footer">Edward Snowden su <cite title="Pochi giorni rimasti per porre fine alla sorveglianza di massa sotto la Sezione 215 del Patriot Act. Siamo Edward Snowden e Jameel Jaffer di ACLU. AUA."><a href="#">Reddit (In Inglese)</a></cite></footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>L'NSA ha costruito un'infrastruttura che permette di intercettare quasi tutto. Con tale capacità, la maggior parte delle comunicazioni umane viene assorbita senza puntare a qualcuno. Se volessi vedere tutte le tue email o il telefono di tua moglie,
+          tutto quello che dovrei fare sarebbe utilizzare le intercettazioni. Posso ottenere le tue email, password, tabulati telefonici, carte di credito. Non voglio vivere in una società che fa questo tipo di cose... Non voglio vivere in un mondo dove
+          tutto quello che dico viene registrato. È qualcosa che non voglio supportare o sottostare.</p>
+        <footer class="blockquote-footer">Edward Snowden al <cite title="Edward Snowden, fonte dei documenti NSA: 'Se vogliono arrivare a te, con il tempo lo faranno'"><a href="https://www.theguardian.com/world/2013/jun/09/nsa-whistleblower-edward-snowden-why">The Guardian</a></cite></footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>Tutti abbiamo bisogno di posti dove possiamo esplorare senza gli occhi critici delle altre persone puntati addosso, solo in una realtà dove non siamo sorvegliati possiamo veramente mettere alla prova i nostri limiti su chi vogliamo essere.
+          Dissenso, creatività ed esplorazione personale risiedono soltanto nella nostra sfera privata.</p>
+        <footer class="blockquote-footer">Glenn Greenwald all'<cite title="Glenn Greenwald In Perché la Privacy è Vitale, Anche Se Non Hai 'Niente da Nascondere'"><a href="#">Huffington Post (In Inglese)</a></cite></footer>
+      </blockquote>
+      <h1 id="resources" class="anchor"><a href="#resources"><i class="fas fa-link anchor-icon"></i></a> Altre Risorse per la Privacy</h1>
+      <div class="alert alert-dismissible alert-primary"><button type="button" class="close" data-dismiss="alert">×</button>Le risorse in questa sezione sono in lingua inglese</div>
+      <h3>Guide</h3>
+      <ul>
+        <li><a href="#"><strong>Surveillance Self-Defense by EFF</strong></a> - Guida all'auto-difesa contro la sorveglianza utilizzando tecnologie sicure e sviluppando pratiche di prudenza.</li>
+        <li><a href="#"><strong>The Crypto Paper</strong></a> - Privacy, Sicurezza ed Anonimato per Qualsiasi Utente Internet.</li>
+        <li><a href="#"><strong>Email Self-Defense by FSF</strong></a> - Una guida su come combattere la sorveglianza con la crittografia GnuPG.</li>
+        <li><a href="#"><strong>The Ultimate Privacy Guide</strong></a> - Eccellente guida alla privacy scritta dai creatori del sito web bestVPN.com.</li>
+        <li><a href="#"><strong>IVPN Privacy Guides</strong></a> - Queste guide alla privacy spiegano come ottenere una più vasta libertà, privacy e anonimato attraverso la compartimentazione e isolamento.</li>
+        <li><a href="#"><strong>The Ultimate Guide to Online Privacy</strong></a> Guida completa alla "Consigli per una Vita Privata da Ninja" e più di 150 strumenti.</li>
+      </ul>
+      <h3>Informazioni</h3>
+      <ul>
+        <li><a href="#"><strong>Freedom of the Press Foundation</strong></a> - Dal 2012 supportiamo e difendiamo il giornalismo dedicato alla trasparenza e responsabilità.</li>
+        <li><a href="#"><strong>Erfahrungen.com</strong></a> - Aggregatore Tedesco di recensioni di servizi relativi alla privacy.</li>
+        <li><a href="#"><strong>Open Wireless Movement</strong></a> - Una coalizione di sostenitori per la libertà in Internet, aziende, organizzazioni e tecnologi che lavorano per sviluppare nuove tecnologie wireless e ispirare un movimento per un Internet aperto.</li>
+        <li><a href="#"><strong>privacy.net</strong></a> - Cosa sa il Governo US su di te?</li>
+        <li><a href="#"><strong>r/privacytoolsIO Wiki</strong></a> - La nostra wiki su reddit.com.</li>
+        <li><a href="#"><strong>Security Now!</strong></a> - Podcast settimanale sulla Sicurezza di Steve Gibson e Leo Laporte.</li>
+        <li><a href="#"><strong>TechSNAP</strong></a> - Podcast settimanale su Sistemi, Reti, e Amministrazione. Ogni settimana TechSNAP racconta le storie che ci riguardano nell'industria tecnologica.</li>
+        <li><a href="#"><strong>Terms of Service; Didn't Read</strong></a> - "Ho letto e accettato i Termini" è la più grande bugia della rete. Vogliamo risolvere il problema.</li>
+        <li><a href="#"><strong>The Great Cloudwall</strong></a> - Critica e informazioni sul perché evitare Cloudflare, una grande azienda con un enorme porzione di internet alle spalle.</li>
+      </ul>
+      <h3>Strumenti</h3>
+      <ul>
+        <li><a href="#"><strong>ipleak.net</strong></a> - Rilevazione IP/DNS - Qual'è il tuo IP, quali server DNS stai utilizzando, quali informazioni trasmetti ai siti web.</li>
+        <li><a href="#"><strong>The ultimate Online Privacy Test Resource List</strong></a> - Una collezione di siti web che controllano se il tuo browser trapela informazioni.</li>
+        <li><a href="#"><strong>PRISM Break</strong></a> - Tutti abbiamo il diritto alla privacy, e lo puoi esercitare oggi criptando le tue conversazioni e smettere di affidarsi a servizi proprietari.</li>
+        <li><a href="#"><strong>Security in-a-Box</strong></a> - Una guida alla sicurezza digitale per attivisti e difensori dei diritti umani nel mondo.</li>
+        <li><a href="#"><strong>SecureDrop</strong></a> - Un sistema open source per whistleblower. Le organizzazioni mediatiche lo possono utilizzare per accettare in modo sicuro documenti da fonti anonime e comunicarci. Fu creato da Aaron Swartz ed è attualmente gestito dalla Freedom of the Press Foundation.</li>
+        <li><a href="#"><strong>Reset The Net - Privacy Pack</strong></a> - Aiuta la lotta per porre fine alla sorveglianza di massa. Ottieni questi strumenti per proteggere te stesso ed i tuoi amici.</li>
+        <li><a href="#"><strong>Security First</strong></a> - Umbrella è un'app Android che fornisce tutti i consigli necessari per operare in sicurezza in un ambiente ostile.</li>
+        <li><a href="#"><strong>Osalt</strong></a> - Una directory per aiutarti a trovare alternative open source a strumenti proprietari.</li>
+        <li><a href="#"><strong>AlternativeTo</strong></a> - Una directory per aiutarti a trovare alternative ad altri software, con l'opzione per mostrare solo software open source.</li>
+      </ul>
+      <p>Nota: Solo perché un software è open source non significa che sia sicuro!</p>
+      <div class="page-header">
+        <h1 id="participate" class="anchor"><a href="#participate"><i class="fas fa-link anchor-icon"></i></a> Partecipa con suggerimenti o critiche costruttive</h1>
+      </div>
+      <p>È importante per un sito come PrivacyTools che le informazioni siano sempre aggiornate. Tieni d'occhio gli aggiornamenti dei software mostrati qui e segui le notizie più recenti sui servizi consigliati. Facciamo del nostro meglio per tenerci
+        aggiornati ma non siamo perfetti ed Internet sta cambiando rapidamente. Quindi se trovi un errore, credi che un servizio non debba essere mostrato qui, oppure ne manca uno qualificato, un'estensione del browser non è la scelta migliore...
+        <strong>Per favore mettiti in contatto con noi.</strong> Puoi trovarci anche sulla <a rel="me" href="#">nostra istanza Mastodon</a> oppure su <a href="#">Matrix</a> in
+        <code class="highlighter-rouge">#general:privacytools.io</code>.
+      </p>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-success">
+            <div class="card-header text-white bg-success">
+              <h3 class="h5">Discourse e Reddit</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <img src="/assets/img/svg/3rd-party/discourse.svg" width="120" height="120" alt="Discourse e Reddit" class="panel-item">
+                Entra nella nostra community attiva su Discourse per rimanere aggiornato/a sulle notizie relative alla privacy o per inviare suggerimenti! (In Inglese)
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-success mb-1" href="#">
+                    Discourse
+                  </a>
+                  <a class="btn btn-success mb-1" href="#">Reddit</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-primary">
+            <div class="card-header text-white bg-primary">
+              <h3 class="h5">Seguici su Mastodon e Twitter</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <img src="/assets/img/svg/3rd-party/mastodon.svg" width="120" height="120" alt="Seguici su Mastodon e Twitter" class="panel-item">
+                Tieniti aggiornato/a con le ultime notizie sulla privacy nel nostro profilo Mastodon. Seguici oggi stesso!
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-primary mb-1" href="#">
+                    Mastodon
+                  </a>
+                  <a class="btn btn-primary mb-1" href="#">Twitter</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-warning">
+            <div class="card-header text-dark bg-warning">
+              <h3 class="h5">Sviluppa su GitHub</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <span class="fab fa-github panel-item panel-font" alt="Sviluppa su GitHub"></span>
+                Il codice sorgente completo di PrivacyTools è disponibile su GitHub. Unisciti al nostro team di sviluppo!
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-warning mb-1" href="#">
+                    GitHub
+                  </a>
+                  <a class="btn btn-warning mb-1" href="#">Lista dei Contributor</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+          <div class="card card-secondary">
+            <div class="card-header text-white bg-secondary">
+              <h3 class="h5">Aiuta a tradurre su GitHub</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                <span class="fab fa-github panel-item panel-font" alt="Aiuta a tradurre su GitHub"></span>
+                La repository contiene il codice sorgente di PrivacyTools tradotto in Italiano. Al momento non c'è alcun sistema di localizzazione quindi tutto deve essere tradotto manualmente modificando i file HTML.
+              </p>
+              <div>
+                <p>
+                  <a class="btn btn-secondary mb-1" href="#">
+                    GitHub
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>Questo è un progetto creato dalla comunità che punta ad offrire le migliori informazioni disponibili per migliorare la privacy in rete. Grazie per la partecipazione. Questo progetto ha bisogno di te.</p>
+    </main>
+    <footer>
+      <footer>
+        <hr class="footer-divider" />
+        <h3 id="participate">Spargi la voce ed aiuta i tuoi amici</h3>
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 d-flex justify-content-between">
+            <a href="mailto:?subject=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&body=https://privacytools-it.github.io" class="share-btn email" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#" class="share-btn facebook" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="share-btn twitter" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="share-btn mastodon" title="Mastodon">
+              <i class="fab fa-mastodon"></i>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-between">
+            <a href="#" class="share-btn reddit" title="reddit">
+              <i class="fab fa-reddit-alien"></i>
+            </a>
+            <a href="#" class="share-btn linkedin" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="share-btn mix" title="Mix">
+              <i class="ptio-mix"></i>
+            </a>
+            <a href="#" class="share-btn diaspora" title="Diaspora*">
+              <i class="fas fa-asterisk"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Copia l'URL e la Descrizione</h3>
+        <p>
+          <input type="text" value="PrivacyTools - Crittografia e strumenti per la protezione contro la sorveglianza di massa globale - https://privacytools-it.github.io" class="form-control input-lg onclick-select" readonly>
+          <span class="help-block">Clicca sul campo di testo per selezionare tutto il suo contenuto.</span>
+        </p>
+        <hr class="footer-divider">
+        <div class="row mt-3">
+          <div class="col-sm-3 mb-3 d-flex justify-content-center align-items-center">
+            <span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+            <a href="/LICENSE.txt" title="Quest'opera è libera. La puoi redistribuire e/o modificare secondo i termini di licenza &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;." data-toggle="tooltip" data-placement="top">CC0</a>
+          </div>
+          <div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+            <span class="far fa-address-card fa-2x mr-2"></span> <a href="/about/">Chi Siamo &amp; Contatti</a>
+          </div>
+          <div class="col-sm-3 mb-3 d-flex justify-content-center align-items-center">
+            <span class="fas fa-donate fa-2x mr-2"></span><a data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta questo progetto con una donazione. Non abbiamo pubblicità e non siamo affiliati con nessun servizio. La tua donazione coprirà i costi per server e domini." href="/donate/">Supportaci!</a>
+          </div>
+          <div class="col-sm-1 mb-3 d-flex justify-content-center align-items-center">
+            <span class="fa-2x mr-2"></span><a href="https://coindataflow.com/de/aktie/HPURF"><img src="/img/icons/cdf.png" alt="hexagon purus aktie" width="50"></a>
+          </div>
+        </div>
+        <br>
+        <p>Ho deciso di tradurre <a href="#">PrivacyTools</a> per poter rendere accessibili alla comunità italiana le informazioni e gli strumenti per proteggersi contro la sorveglianza di massa globale nella società tecnologica attuale.</p>
+        <p><strong>Questo sito è una traduzione.</strong> Puoi seguire tutte le "commit" del sito originale in Inglese - che verranno integrate in questa versione tradotta - <a href="#">su GitHub</a>.
+          Se vuoi contribuire a PrivacyTools con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo <a href="#">tramite GitHub</a> o <a href="#">Reddit</a>.</p>
+        <p>Se hai trovato uno o più errori di traduzione o un problema con questa versione del sito, <a href="/about/">contattami</a>.</p>
+        <p><a href="#">
+            Ultima modifica al sito:
+            30
+            2020
+          </a></p>
+        <div class="copyright-text">
+          <a href="/about/javascript" data-jslicense="1"><span class="fab fa-js fa-lg"></span> Licenze JavaScript</a>
+          <p class="mt-2">
+            <strong>Nessuna pubblicità, niente Google Analytics, nessuna affiliazione, nessuna richiesta cross-site.</strong>
+            <em>PrivacyTools è un sito motivato dalla comunità che mette a disposizione informazioni sulla sicurezza dei dati e privacy. Non fidarti mai di nessuna compagnia quando si tratta della tua privacy, cripta sempre.</em>
+          </p>
+          <small>
+            <p><a href="/privacy/">Informativa sulla Privacy</a> | <a href="/notices/">Avvisi &amp; Liberatorie</a>
+          </small>
+        </div>
+      </footer>
+    </footer>
+  </div>
+  <script src="/assets/js/jquery-3.3.1.min.js?v=2"></script>
+  <script src="/assets/js/popper.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/sortable.min.js?v=2"></script>
+  <script src="/assets/js/main.js?v=4"></script>
+</body>
+</html>

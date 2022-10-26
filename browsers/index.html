@@ -1,0 +1,2566 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="privacy, anonimato, privacy tools, sorveglianza, crittografia">
+	<meta name="description" content="Queste sono i nostri consigli attuali per quanto riguarda i browser web assieme a degli aggiustamenti che puoi utilizzare per preservare la tua privacy.">
+	<link rel="canonical" href="https://privacytools-it.github.io/browsers/">
+
+	<!-- title -->
+	
+	<title>Browser Web | PrivacyTools-IT</title>
+	<meta property="og:title" content="Browser Web | PrivacyTools-IT" />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://privacytools-it.github.io/browsers/" />
+	<meta property="og:image" content="https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png" />
+	<meta property="og:description" content="Queste sono i nostri consigli attuali per quanto riguarda i browser web assieme a degli aggiustamenti che puoi utilizzare per preservare la tua privacy."/>
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:site_name" content="PrivacyTools-IT" />
+
+	
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+	<link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+	<link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+	<link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/png/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#343a40">
+
+	<!-- CSS stylesheets -->
+	<link href="/assets/css/style.css?v=6" rel="stylesheet">
+	<link id="dark-css" href="/assets/css/dark.css?v=5" rel="stylesheet" media="(prefers-color-scheme: dark)">
+
+	
+	<!-- EOL redirect -->
+	<meta http-equiv="refresh" content="0; url=https://privacytools-it.github.io">
+	<script>location = "https://privacytools-it.github.io"</script>
+	
+</head>
+
+	<body data-spy="scroll" data-target="#navbar">
+		<script src="/assets/js/applytheme.js?v=1"></script>
+		<header>
+			<div class="fixed-top bg-dark">
+	<nav id="navbar">
+
+	<input type="checkbox" id="nav-toggle" checked />
+	<label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+	<a id="nav-home-mobile" class="nav-anchor" href="/index.html"><img src="/assets/img/png/layout/brand/horizontal.png" width="148px" height="22px"></a>
+
+	<div class="menu">
+		<div id="nav-left" class="position-relative flex-col">
+			<a class="nav-anchor" href="/index.html"> <span id="nav-home" class="fas fa-home fa-fw"></span></a>
+
+			<!-- Provider -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Provider <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Evita i servizi USA & UK</a>
+				<a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Aggregatori Social di Notizie</a>
+				<a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+				<a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+				<a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+				<a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Hosting</a>
+				<a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Motori di Ricerca</a>
+				<a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebin</a>
+				<a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Network</a>
+				<a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+				</span>
+			</details>
+
+			<!-- Browser -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Browser <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> Consigli</a>
+				<a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Informazioni sul Fingerprinting</a>
+				<a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> IP Leak WebRTC</a>
+				<a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> Estensioni dei Browser</a>
+				<a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> Modifiche a Firefox</a>
+				</span>
+			</details>
+
+			<!-- Software -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Software <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Appunti Digitali</a>
+				<a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Client Email</a>
+				<a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Comunicazione in Tempo Reale</a>
+				<a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> Condivisione File</a>
+				<a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> Crittografia File</a>
+				<a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+				<a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Produttività</a>
+				<a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Reti Autonome</a>
+				<a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Rimozione Metadati</a>
+				<a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Server Cloud Self-Hosted</a>
+				<a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Sincronizzazione Calendario/Contatti</a>
+				<a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Sincronizzazione File</a>
+				</span>
+			</details>
+
+			<!-- OS -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					OS <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> SO PC</a>
+				<a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> SO PC Live</a>
+				<a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> SO Mobile</a>
+				<a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> Add-on per Android</a>
+				<a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware per Router</a>
+				<a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> Non usare Windows 10</a>
+				</span>
+			</details>
+
+			<a class="nav-anchor" href="/index.html#participate">Partecipa</a>
+		</div>
+
+		<!-- Elements on the right -->
+		<div id="nav-right">
+			<a href="/services/" class="nav-anchor">Servizi</a>
+			<a href="https://blog.privacytools.io/" class="nav-anchor">Blog</a>
+			<a href="https://www.privacytools.io/sponsors/" class="nav-anchor">Sponsor</a>
+			<a href="/about/" class="nav-anchor">Su di Noi</a>
+			<span id="nav-switch-theme" class="nav-anchor">
+				<span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Tema"></span>
+				<span class="sr-only">Cambia Tema</span>
+			</span>
+			<details class="nav-details">
+				<summary>
+					<span class="nav-summary">
+						<!-- Language (not localized on purpose) -->
+						<span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+						<span class="sr-only">Language Selection</span>
+						<span class="dropdown-toggle"></span>
+					</span>
+				</summary>
+				<span class="nav-dropdown">
+					<a href="https://www.privacytools.io/" class="dropdown-item">English</a>
+					<a href="https://privacytools.twngo.xyz/" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+					<a href="https://victorhck.gitlab.io/privacytools-es/" rel="nofollow noopener" class="dropdown-item">Español</a>
+					<a href="https://pl.privacytools.io/" rel="nofollow noopener" class="dropdown-item">Polski</a>
+					<a href="https://www.privacidade.digital/" rel="nofollow noopener" class="dropdown-item">Português</a>
+					<a href="https://privacytools.it-sec.rocks/" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+					<a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
+					<a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
+				</span>
+			</details>
+		</div>
+	</div>
+	</nav>
+</div>
+
+			<div id="top" class="py-4"></div>
+		</header>
+		<div class="container" role="main">
+  <main>
+  <nav id="breadcrumb" aria-label="breadcrumb">
+	
+	<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="breadcrumb-item"><a href="/"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+		
+			
+				<li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<link href="/browsers/" itemprop="item"/>
+				<span itemprop="name">Browsers </span>
+				<meta itemprop="position" content="1" />
+				</li>
+			
+		
+	</ol>
+</nav>
+
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Browser Web</h1>
+  <p class="lead">Queste sono i nostri consigli attuali per quanto riguarda i browser web assieme a degli aggiustamenti che puoi utilizzare per preservare la tua privacy.</p>
+</div>
+
+<h1 id="browser" class="anchor"><a href="#browser"><span class="fas fa-link anchor-icon"></span></a> Browser Desktop Consigliati</h1>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Firefox
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/firefox_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Firefox"
+		>
+		Firefox è veloce, affidabile, open source e rispetta la privacy. Non dimenticarti di modificare alcune impostazioni: <a href="#addons"><i class="fas fa-link"></i>Estensioni per la privacy</a> <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> <a href="#about_config"><i class="fas fa-link"></i> modifiche about:config</a>.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://firefox.com/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-firefox/279"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.mozilla.org/it-IT/firefox/new/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.mozilla.org/it-IT/firefox/new/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.mozilla.org/it-IT/firefox/new/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.freshports.org/www/firefox" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://openports.se/www/mozilla-firefox" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://pkgsrc.se/www/firefox" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/packages/org.mozilla.fennec_fdroid/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/firefox-private-safe-browser/id989804926" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/mozilla" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Tor Browser - Per l'Anonimato
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/tor_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Tor Browser - Per l'Anonimato"
+		>
+		Tor Browser è la scelta migliore se si vuole avere un livello di anonimato in più. È una versione modificata di Firefox ESR, con delle estensioni dedicate alla privacy pre-installate, crittografia ed un proxy avanzato. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Come funziona Tor? - In Inglese</a>
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.torproject.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-tor-browser/278"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+			<a
+			href="http://expyuzz4wqqyqhjn.onion/"
+			rel="noopener"
+			class="hover-text-decoration-none mt-1 mr-1"
+			data-toggle="tooltip"
+			data-placement="bottom"
+			data-original-title="Richiede software specifico per accedere: torproject.org">
+			<span class="ptio-tor btn-tor btn-icon"></span>
+			</a>
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.torproject.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.torproject.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.torproject.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://guardianproject.info/fdroid/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.torproject.org/download/#android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+			<a href="https://trac.torproject.org/projects/tor" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h1 id="browser-android" class="anchor"><a href="#browser-android"><span class="fas fa-link anchor-icon"></span></a> Browser Android Consigliati</h1>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Firefox
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/firefox_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Firefox"
+		>
+		Firefox è veloce, affidabile, open source e rispetta la privacy. Non dimenticarti di modificare alcune impostazioni: <a href="#addons"><i class="fas fa-link"></i>Estensioni per la privacy</a> <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> <a href="#about_config"><i class="fas fa-link"></i> modifiche about:config</a>.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.mozilla.org/it-IT/firefox/mobile/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-firefox/279"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/packages/org.mozilla.fennec_fdroid/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.mozilla.org/it-IT/firefox/all/#product-android-release" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+			
+			<a href="https://github.com/mozilla-mobile" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+			</a>
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Tor Browser - Per l'Anonimato
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/tor_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Tor Browser - Per l'Anonimato"
+		>
+		Tor Browser è la scelta migliore se si vuole avere un livello di anonimato in più. È una versione modificata di Firefox ESR, con delle estensioni dedicate alla privacy pre-installate, crittografia ed un proxy avanzato. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Come funziona Tor? - In Inglese</a>
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.torproject.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-tor-browser-for-android-browsers/1522"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+			<a
+			href="http://expyuzz4wqqyqhjn.onion/"
+			rel="noopener"
+			class="hover-text-decoration-none mt-1 mr-1"
+			data-toggle="tooltip"
+			data-placement="bottom"
+			data-original-title="Richiede software specifico per accedere: torproject.org">
+			<span class="ptio-tor btn-tor btn-icon"></span>
+			</a>
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://guardianproject.info/fdroid/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.torproject.org/download/#android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+			<a href="https://gitweb.torproject.org/tor-browser.git/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Bromite
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/bromite.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Bromite"
+		>
+		Bromite è un browser basato su Chromium. Sono state applicate delle patch da GrapheneOS e altri progetti focalizzati sulla sicurezza, adblocker integrato e supporto a DNS over HTTPS. Ulteriori informazioni sono reperibili <a href="https://www.bromite.org/#main-features">nel loro sito</a>.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.bromite.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-bromite-browsers/1521"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://www.bromite.org/fdroid" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://www.bromite.org/#download-bromite" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/bromite/bromite" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h3>Android: Vale la Pena Menzionare</h3>
+
+<ul>
+<li>
+	<a href="https://www.stoutner.com/privacy-browser/">Privacy Browser</a> - Un browser open source focalizzato sulla privacy dell'utente. Le funzionalità includono un ad blocker con <a href="https://easylist.to/">EasyList</a>, <a href="https://www.stoutner.com/privacy-browser-2-5/">SSL certificate pinning</a> e <a href='https://guardianproject.info/apps/orbot/'>supporto a Tor Orbot.</a>
+	<a href="https://play.google.com/store/apps/details?id=com.google.android.webview&hl=it">
+		<span class="badge badge-warning" data-toggle="tooltip" title="Privacy Browser si appoggia ad Android System WebView che a sua volta deve essere aggiornato per risolvere i problemi di sicurezza. È possibile aggiornare WebView installandolo da Google Play oppure Aurora Store che puoi ottenere da F-Droid.">
+		<span class="fas fa-exclamation-triangle"></span> Tieni aggiornato Android WebView</span>
+	</a>
+</li>
+</ul>
+
+<h1 id="browser-ios" class="anchor"><a href="#browser-ios"><i class="fas fa-link anchor-icon"></i></a> Browser iOS Consigliati</h1>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Firefox
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/firefox_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Firefox"
+		>
+		Firefox è veloce, affidabile, open source e rispetta la privacy. Nota: a causa delle limitazione imposte da Apple su iOS, le nostre modifiche consigliate non possono essere applicate. Tuttavia Firefox per iOS ha la <a href="https://support.mozilla.org/it/kb/protezione-antitracciamento-firefox-ios">Protezione Antitracciamento Avanzata</a> che utilizza una lista messa a disposizione da <a href="https://disconnect.me/trackerprotection">Disconnect</a> per identificare e bloccare annunci, tracker analitici e social, script che minano criptovalute e metodi per estrarre l'impronta digitale del browser.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.mozilla.org/it-IT/firefox/mobile/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-firefox/279"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/firefox-private-safe-browser/id989804926" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+			
+			<a href="https://github.com/mozilla-mobile/firefox-ios" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+			</a>
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Onion Browser
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/onion_browser.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Onion Browser"
+		>
+		Onion Browser è un browser open source promosso dal Tor Project che ti permette di navigare in rete in modo anonimo attraverso la rete Tor su dispositivi iOS. Attenzione: ci sono alcune <a href="https://onionbrowser.com/#security-advisories">problematiche</a> relative all'anonimato con Onion Browser a causa delle limitazioni di iOS.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://onionbrowser.com/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-onion-browser-browsers/1523"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/onion-browser/id519296448" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/OnionBrowser/OnionBrowser" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		DuckDuckGo Privacy Browser
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/duckduckgo.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo DuckDuckGo Privacy Browser"
+		>
+		DuckDuckGo Privacy Browser è un browser web open source con un ad e tracker blocker integrato. Utilizza <a href="https://tosdr.org/">ToS;DR</a> per valutare le politiche sulla privacy dei siti web che visiti.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://duckduckgo.com/app"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-duckduckgo-privacy-browser-browsers/1524"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+			<a
+			href="https://3g2upl4pq6kufc4m.onion/app"
+			rel="noopener"
+			class="hover-text-decoration-none mt-1 mr-1"
+			data-toggle="tooltip"
+			data-placement="bottom"
+			data-original-title="Richiede software specifico per accedere: torproject.org">
+			<span class="ptio-tor btn-tor btn-icon"></span>
+			</a>
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/duckduckgo-privacy-browser/id663592361" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/duckduckgo/iOS" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h3>iOS: Vale la Pena Menzionare</h3>
+
+<ul><li><a href="https://snowhaze.com/en/index.html">SnowHaze</a> - Un browser web open source con un ad, tracker, cookie e fingerprint blocker, tutto personalizzabile per sito.</li></ul>
+
+
+<h1 id="fingerprint" class="anchor"><a href="#fingerprint"><i class="fas fa-link anchor-icon"></i></a> Impronta Digitale del Browser - La tua configurazione del browser è univoca?</h1>
+
+<div class="alert alert-warning" role="alert"><strong>Il browser che utilizzi invia informazioni che ti rendono univoco tra tutti i milioni di utenti e sei quindi facile da identificare.</strong></div>
+
+<p>Quando visiti una pagina web, il tuo browser invia volontariamente informazioni sulla sua configurazionen, come i font disponibili, tipo di browser e add-on. Se la combinazione di queste informazioni è univoca, potrebbe essere possibile identificarti e tracciarti utilizzando i cookie. L'EFF ha creato uno strumento chiamato <a href="https://panopticlick.eff.org/">Panopticlick</a> per fare un test e vedere quanto sei univoco.</p>
+
+<p><a class="btn btn-warning" href="https://panopticlick.eff.org/" target="_blank">Fai un test ora</a></p>
+
+<p>Devi cercare ciò che <strong>la maggior parte dei browser</strong> stanno inviando, e quindi utilizzare quelle variabili per portare il tuo browser nella stessa popolazione. Ciò significa avere gli stessi font, plugin ed estensioni installate della popolazione più grande. Dovresti avere una <a href="https://addons.mozilla.org/firefox/addon/uaswitcher/">stringa fasulla come "user agent"</a> di modo che combaci con quella della maggior parte degli utenti. Dovrai avere le stesse impostazioni attivate e disattivate, come DNT e WebGL. Il tuo browser deve risultare comune come tutti gli altri. Disabilitare JavaScript, usare Linux o anche il Tor Browser Bundle, ti farà distinguere dalla massa.</p>
+
+<p>I browser moderni non sono stati progettati per garantire la privacy personale in rete. Piuttosto che preoccuparti di essere identificato personalmente (o "fingerprinted"), è più pratico utilizzare <a href="#addons"><i class="fas fa-link"></i> plugin gratuiti</a> come Privacy Badger o uBlock Origin. Non solo rispettano la tua libertà, ma anche la tua privacy. Andrai più lontano con questi piuttosto che manipolare l'impronta digitale del tuo browser.</p>
+
+<h3>Add-on di Firefox: CanvasBlocker</h3>
+<ul><li><a href="https://addons.mozilla.org/firefox/addon/canvasblocker/">addons.mozilla.org</a> - Questo add-on permette agli utenti di impedire ai siti web di utilizzare alcune API di JavaScript per identificarli ("fingerprinting"). L'utente potrà scegliere di bloccare tutte le API su alcuni o tutti i siti web (il che potrebbe creare malfunzionamenti in alcuni casi) oppure bloccare o falsare il risultato delle API.</li></ul>
+
+<h3>Informazioni Correlate</h3>
+
+<ul>
+<li><a href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">Quanto è univoco il tuo browser? Peter Eckersley, EFF</a> - In Inglese</li>
+<li><a href="#addons"><i class="fas fa-link"></i> Sezione dedicata agli add-on di Firefox.</a></li>
+<li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Strumenti per testare la sicurezza del browser, che ti diranno esattamente quali dati personali potrebbero trapelare senza il tuo consenso mentre navighi in rete - In Inglese</li>
+</ul>
+
+
+<h1 id="webrtc" class="anchor"><a href="#webrtc"><i class="fas fa-link anchor-icon"></i></a> Test IP Leak WebRTC - Il tuo Indirizzo IP è esposto?</h1>
+
+<div class="alert alert-danger" role="alert"><strong>WebRTC è un nuovo protocollo di comunicazione che dipende da JavaScript e che può rivelare il tuo vero Indirizzo IP anche sei connesso tramite VPN.</strong></div>
+
+<p>Mentre altri software come NoScript lo impediscono, è probabilmente una buona idea bloccare questo protocollo direttamente, giusto per essere sicuri.</p>
+
+<p><a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Fai il test adesso</a></p>
+
+<h3>Come disabilitare WebRTC in Firefox?</h3>
+
+<p>In breve: Imposta "media.peerconnection.enabled" su "false" in "about:config".</p>
+<p><strong>Spiegazione:</strong></p>
+
+<ol class="long-string-list">
+	<li>Digita "about:config" nella barra degli indirizzi di Firefox e premi invio.</li>
+	<li>Clicca sul pulsante "Farò attenzione, prometto!"</li>
+	<li>cerca "media.peerconnection.enabled"</li>
+	<li>Fai doppio click sulla riga che corrisponde alla preferenza, la colonna "Valore" dovrebbe diventare "false"</li>
+	<li>Fatto. Rifai il test per il leak WebRTC di nuovo.</li>
+</ol>
+
+<p>Se vuoi assicurarti che ogni singola impostazione di WebRTC sia disabilitata del tutto:</p>
+
+<ol class="long-string-list">
+	<li>media.peerconnection.turn.disable = true</li>
+	<li>media.peerconnection.use_document_iceservers = false</li>
+	<li>media.peerconnection.video.enabled = false</li>
+	<li>media.peerconnection.identity.timeout = 1</li>
+</ol>
+
+<p>Adesso puoi stare certo che WebRTC è disabilitato al 100%.</p>
+
+<p><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Rifai il test</a></p>
+
+<h3>Come risolvere il leak WebRTC in Google Chrome?</h3>
+
+<p>WebRTC non può essere disabilitato del tutto in Chrome, tuttavia è possibile cambiare le sue impostazioni di instradamento (e prevenire leak) utilizzando un estensione. Due soluzioni open source includono <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml" target="_blank">WebRTC Leak Prevent</a> (potrebbe essere possibile modificare alcune opzioni in base alle proprie esigenze), e <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank">uBlock Origin</a> (seleziona "Impedisci a WebRTC di rivelare gli Indirizzi IP locali" in Impostazioni).</p>
+
+<h3>E negli altri browser?</h3>
+
+<p>Chrome su iOS, Internet Explorer e Safari non supportano ancora WebRTC. <a href="#browser"><i class="fas fa-link"></i> Noi però consigliamo Firefox su tutti i dispositivi.</a></p>
+
+
+<h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> Add-on Consigliati per i Browser</h1>
+
+<div class="alert alert-secondary" role="alert">
+	Non tutte le estensioni elencate qui sono necessarie e molte hanno funzionalità ridondanti. Scegli quelle che ti servono e <a class="alert-link" href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">scopri di più con la nostra guida alla privacy con Firefox</a>.
+</div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		uBlock Origin: Blocca Annunci e Tracker
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/ublock_origin.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo uBlock Origin: Blocca Annunci e Tracker"
+		>
+		<strong>uBlock Origin</strong> è un efficiente <a href=https://github.com/gorhill/uBlock/wiki/Blocking-mode>blocker ad ampio spettro</a> con un leggero impatto sulla memoria, e che nonostante la leggerezza è in grado di caricare e forzare migliaia di altri filtri rispetto ad altri blocker. Non ha alcuna strategia di monetizzazione ed è completamente open source.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://addons.mozilla.org/firefox/addon/ublock-origin/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-ublock-origin/266"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/ublock/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.microsoft.com/it-it/p/ublock-origin/9nblggh444l4" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/gorhill/uBlock/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		HTTPS Everywhere: Connessioni Sicure
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/https_everywhere.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo HTTPS Everywhere: Connessioni Sicure"
+		>
+		<strong>HTTPS Everywhere</strong> abilita la crittografia delle tue connessioni ai siti più famosi, rendendo la navigazione più sicura. Una collaborazione tra il Tor Project e l'Electronic Frontier Foundation.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.eff.org/https-everywhere"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-https-everywhere/268"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/https-everywhere" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/https-everywhere" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/EFForg/https-everywhere" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Decentraleyes: Blocca le Reti per la Consegna dei Contenuti (CDN)
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/decentraleyes.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Decentraleyes: Blocca le Reti per la Consegna dei Contenuti (CDN)"
+		>
+		<strong>Decentraleyes</strong> emula le Reti per la Consegna dei Contenuti (Content Delivery Networks, o CDN) localmente intercettando le richieste, cercando in locale la risorsa richiesta ed iniettandola nell'ambiente. Tutto questo avviene istantaneamente ed automaticamente, senza richiedere alcuna configurazione.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://decentraleyes.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-decentraleyes/269"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/decentraleyes" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/decentraleyes" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+			<a href="https://git.synz.io/Synzvato/decentraleyes" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Cookie AutoDelete: Elimina Automaticamente i Cookie
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/png/3rd-party/cookie_autodelete.png"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Cookie AutoDelete: Elimina Automaticamente i Cookie"
+		>
+		<strong>Cookie AutoDelete</strong> elimina automaticamente cookie, sessioni persistenti ed altre informazioni che non sono più utilizzate dalle schede del browser aperte e che potrebbero essere utilizzate per spiarti.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://addons.mozilla.org/firefox/addon/cookie-autodelete/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-cookie-autodelete/267"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/cookie-autodelete" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Terms of Service; Didn’t Read: Informati
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/terms_of_service_didnt_read.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Terms of Service; Didn’t Read: Informati"
+		>
+		<strong>Terms of Service; Didn't Read</strong> è un'estensione che crede "Ho letto e accettato i Termini" essere la bugia più grande del web e vuole risolvere la situazione graduando i siti web secondo i loro termini di servizio e privacy policy che li governano, mostrando inoltre un breve riassunto. Le analisi e valutazioni sono pubblicate in modo trasparente dalla community.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://tosdr.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-terms-of-service-didn-t-read/270"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/terms-of-service-didnt-read/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/terms-of-service-didn%E2%80%99t-r/hjdoplcnndgiblooccencgcggcoihigg?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/terms-of-service-didnt-read" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/tosdr/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Snowflake
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/snowflake.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Snowflake"
+		>
+		<strong>Snowflake</strong> è un nuovo "<a href=https://2019.www.torproject.org/docs/pluggable-transports.html.en>pluggable transport</a>" del Tor Project. Se la tua connessione non è censurata, installare questa estensione permetterà agli altri utenti di utilizzare la tua connessione come proxy Snowflake per aiutarli a connettersi alla rete Tor. Il tuo indirizzo IP non sarà visibile ai siti web che gli utenti visiteranno tramite il tuo proxy, poiché questa estensione non ti farà diventare un nodo di uscita. Se il tuo accesso alla rete Tor è bloccato, questa estensione non ti aiuterà e dovresti invece utilizzare il <a href=https://www.torproject.org>Tor Browser</a>.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://snowflake.torproject.org"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-snowflake/1146"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/torproject-snowflake" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/snowflake/mafpmfcccpbjnhfhjnllmmalhifmlcie?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+			<a href="https://gitweb.torproject.org/pluggable-transports/snowflake.git" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Privacy Badger: Impedisci il Tracciamento
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/privacy_badger.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Privacy Badger: Impedisci il Tracciamento"
+		>
+		<strong>Privacy Badger</strong> è un add-on che blocca le inserzioni ed altri tracker di terze parti che tracciano di nascosto dove vai e quali pagine guardi in rete. Privacy Badger impara i tracker man mano che navighi, ispezionando le risorse esterne richieste.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.eff.org/privacybadger"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-privacy-badger/265"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/privacy-badger17" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/privacy-badger/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/EFForg/privacybadger" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h2>Per Utenti Avanzati</h2>
+
+<div class="alert alert-warning" role="alert"><strong>Questi add-on richiedono molta interazione da parte dell'utente prima che tutto funzioni correttamente. Alcuni siti potrebbero non funzioneranno correttamente senza un'attenta configurazione.</strong></div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		uMatrix: Blocca le Richieste tra Siti Web
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/png/3rd-party/umatrix.png"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo uMatrix: Blocca le Richieste tra Siti Web"
+		>
+		<strong>uMatrix</strong> ti permette di prendere il controllo delle richieste che i siti web fanno a terzi. Molti siti integrano delle funzioni che permettono ad altri siti di tracciarti, come i pulsanti "Mi Piace" di Facebook o Google Analytics.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://addons.mozilla.org/it-IT/firefox/addon/umatrix/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-umatrix/271"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/en-US/firefox/addon/umatrix" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://addons.opera.com/it/extensions/details/umatrix" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/gorhill/uMatrix" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+	
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		NoScript Security Suite: Controllo Totale
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/noscript.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo NoScript Security Suite: Controllo Totale"
+		>
+		<strong>NoScript</strong> è un plugin altamente personalizzabile che permette l'esecuzione selettiva solo sui siti web di cui ti fidi di JavaScript, Java e Flash. Non è per utenti occasionali poiché richiede delle conoscenze tecniche per essere configurato.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://addons.mozilla.org/firefox/addon/noscript/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-noscript-security-suite/272"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it-IT/firefox/addon/noscript" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/hackademix/noscript" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+
+<h1 id="about_config" class="anchor"><a href="#about_config"><i class="fas fa-link anchor-icon"></i></a> Firefox: Impostazioni "about:config" Realative alla Privacy</h1>
+
+<div class="alert alert-success" role="alert">Questa è una collezione di impostazioni <strong>about:config</strong> relative alla privacy. Ti mostreremo come migliorare la privacy su Firefox.</div>
+
+<h3>Preparativi:</h3>
+
+<ol>
+<li>Digita "about:config" nella barra degli indirizzi di Firefox e premi invio.</li>
+<li>Clicca sul pulsante "Accetto i rischi"</li>
+<li>Segui le istruzioni qui sotto...</li>
+</ol>
+
+<h3>Iniziamo:</h3>
+
+<dl class="long-string-list">
+	<dt>privacy.firstparty.isolate = true</dt>
+	<dd>Merito di <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>, questa preferenza isola tutte le fonti che possono identificare la sessione di navigazione (come i cookies) del dominio principale, allo scopo di prevenire il tracciamento attraverso domini differenti. (Non attivare questa preferenza se stai utilizzando "Cookie AutoDelete" con Firefox v58 o inferiori.)</dd>
+
+	<dt>privacy.resistFingerprinting = true</dt>
+	<dd>Merito di <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>, questa preferenza rende Firefox più resistente al Fingerprinting.</dd>
+
+	<dt>privacy.trackingprotection.fingerprinting.enabled = true</dt>
+	<dd>[FF67+] Blocca il Fingerprinting</dd>
+
+	<dt>privacy.trackingprotection.cryptomining.enabled = true</dt>
+	<dd>[FF67+] Blocca il CryptoMining</dd>
+
+	<dt>privacy.trackingprotection.enabled = true</dt>
+	<dd>Questa è la nuova protezione dal tracking integrata di Mozilla. Utilizza i filtri di Disconnect.me, che è ridondante se stai già utilizzando i filtri di terze parti in uBlock Origin, di conseguenza dovresti impostare la preferenza su false se è questo il caso.</dd>
+
+	<dt>browser.send_pings = false</dt>
+	<dd>Se impostato su true permette ai siti web di tracciare i click dei visitatori.</dd>
+
+	<dt>browser.sessionstore.max_tabs_undo = 0</dt>
+	<dd>Anche se Firefox è impostato per non salvare la cronologia, le schede chiuse sono temporaneamente archiviate in Menu -&gt; Cronologia -&gt; Schede chiuse di recente.</dd>
+
+	<dt>browser.urlbar.speculativeConnect.enabled = false</dt>
+	<dd>Disabilita il pre-caricamento degli URL con l'auto-completamento. Firefox pre-carica gli URL che completa automaticamente quando viene digitato nella barra degli indirizzi, il che è motivo di preoccupazione se non si vuole connettersi agli URL che vengono suggeriti. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/" target="_blank">Fonte</a> - In Inglese</dd>
+
+	<dt>dom.event.clipboardevents.enabled = false</dt>
+	<dd>I siti web possono essere informati quando copi, tagli o incolli qualcosa da/a una pagina, e possono sapere anche le parti della pagina che selezioni.</dd>
+
+	<dt>media.eme.enabled = false</dt>
+	<dd>
+		<p>Disabilita la riproduzione dei contenuti HTML5 controllati dal DRM che, se abilitato, scarica automaticamente il Content Decryption Module Widevine creato da Google Inc. <a href="https://support.mozilla.org/it/kb/contenuti-drm-firefox#w_disattivare-la-riproduzione-cdm-disinstallare-e-impedire-i-download-cdm" target="_blank">Dettagli</a></p>
+		<p>I contenuti controllati da un DRM che richiedono i plugin NPAPI Adobe Flash o Microsoft Silverlight verranno riprodotti, se installati ed abilitati in Firefox.</p>
+	</dd>
+
+	<dt>media.gmp-widevinecdm.enabled = false</dt>
+	<dd>Disabilita il Content Decryption Module Widevine di Google Inc., utilizzato per la riproduzione dei contenuti HTML5 controllati dal DRM. <a href="https://support.mozilla.org/it/kb/contenuti-drm-firefox#w_disattivare-il-cdm-google-widevine-senza-disinstallarlo" target="_blank">Dettagli</a></dd>
+
+	<dt>media.navigator.enabled = false</dt>
+	<dd>I siti web possono tracciare lo stato del microfono e della videocamera presenti sul tuo dispositivo.</dd>
+
+	<dt>network.cookie.cookieBehavior = 1</dt>
+	<dd>
+		Disabilita i Cookie
+		<ul>
+			<li>0 = Accetta tutti i Cookie</li>
+			<li>1 = Accetta solo i Cookie del sito principale (Blocca i Cookie di terze parti)</li>
+			<li>2 = Blocca tutti i Cookie</li>
+		</ul>
+	</dd>
+
+	<dt>network.http.referer.XOriginPolicy = 2</dt>
+	<dd>
+		Invia solo l'header <code>Referer</code> quando gli hostname completi combaciano. (Nota: se noti dei gravi malfunzionamenti, puoi provare <code>1</code> in combinazione con <code>XOriginTrimmingPolicy</code> qui sotto.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/" target="_blank">Fonte</a> - In Inglese
+		<ul>
+			<li>0 = Invia <code>Referer</code> in tutti i casi</li>
+			<li>1 = Invia <code>Referer</code> agli stessi siti eTLD</li>
+			<li>2 = Invia <code>Referer</code> solo quando gli hostname completi combaciano</li>
+		</ul>
+	</dd>
+
+	<dt>network.http.referer.XOriginTrimmingPolicy = 2</dt>
+	<dd>
+		Quando viene inviato <code>Referer</code> attraverso le origini, invia solo scheme, host e port nell'header <code>Referer</code> delle richieste tra siti web. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/" target="_blank">Fonte</a> - In Inglese
+		<ul>
+			<li>0 = Invia l'URL completo in <code>Referer</code></li>
+			<li>1 = Invia l'URL senza la query in <code>Referer</code></li>
+			<li>2 = Invia solo scheme, host e port in <code>Referer</code></li>
+		</ul>
+	</dd>
+
+	<dt>Cerchi TRR, DoH o ESNI?</dt>
+	<dd>Sono stati spostati nella <a href="/providers/dns/#icanndns">nostra pagina DNS</a>.</dd>
+
+	<dt>webgl.disabled = true</dt>
+	<dd>WebGL è un potenziale rischio per la sicurezza. <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern" target="_blank">Fonte</a> - In Inglese</dd>
+
+	<dt>browser.sessionstore.privacy_level = 2</dt>
+	<dd>
+		Questa preferenza controlla quando conservare informazioni in più sulla sessione: contenuti dei form, posizione delle barre di scorrimento, cookie e dati POST. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level" target="_blank">Dettagli</a> - In Inglese
+		<ul>
+			<li>0 = Conserva informazioni in più sulla sessione per qualsiasi sito web. (Default a partire da Firefox 4.)</li>
+			<li>1 = Conserva informazioni in più sulla sessione solo per i siti web non criptati (non HTTPS). (Default prima di Firefox 4.)</li>
+			<li>2 = Non conservare mai informazioni in più sulla sessione.</li>
+		</ul>
+	</dd>
+
+	<dt>network.IDN_show_punycode = true</dt>
+	<dd>Non mostrare l'equivalente Punycode degli IDN ti rende più vulnerabile al phishing che potrebbero essere difficili da identificare. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636" target="_blank">Fonte</a> - In Inglese</dd>
+</dl>
+
+<h3 id="user.js">Template user.js per Firefox</h3>
+<ul><li><a href="https://github.com/ghacksuserjs/ghacks-user.js" target="_blank">ghacks-user.js</a> - Un template completo per user.js per configurare e portare al massimo la privacy, sicurezza e anti-fingerprinting in Firefox.</li></ul>
+
+<h3>Informazioni Correlate</h3>
+
+<ul>
+<li><a href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">Firefox e Privacy: Suggerimenti e Trucchi per Una Migliore Navigazione</a> - Una buona base di partenza per gli utenti che desiderano mantenere i propri dati privati e sicuri.</li>
+<li><a href="https://ffprofile.com/">ffprofile.com</a> - Ti aiuta a creare un profilo di Firefox con le impostazioni che preferisci - In Inglese</li>
+<li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> - Preferenze relative alla privacy e sicurezza - In Inglese</li>
+<li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - Un add-on di Firefox che permette di alterare le impostazioni per la privacy integrate in modo facile tramite un pannello.</li>
+<li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Guida alla Privacy con Firefox per Principianti</a> - Guide sui modi (già discussi da altri) per migliorare la tua privacy e sicurezza in Firefox - In Inglese</li>
+</ul>
+
+
+
+  </main>
+  <footer>
+  <footer>
+<hr class="footer-divider" />
+
+<h3 id="participate">Spargi la voce ed aiuta i tuoi amici</h3>
+
+<div class="row mb-4">
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="mailto:?subject=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&body=https://privacytools-it.github.io" class="share-btn email" title="Email">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://privacytools-it.github.io" class="share-btn facebook" title="Facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://twitter.com/share?text=Conoscenza%20e%20strumenti%20per%20proteggere%20la%20tua%20privacy%20contro%20la%20sorveglianza%20di%20massa%20globale%20&amp;url=https://privacytools-it.github.io&amp;via=privacytoolsIO" class="share-btn twitter" title="Twitter">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="https://sharetomastodon.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn mastodon" title="Mastodon">
+<i class="fab fa-mastodon"></i>
+</a>
+</div>
+
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="https://reddit.com/submit?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn reddit" title="reddit">
+<i class="fab fa-reddit-alien"></i>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn linkedin" title="LinkedIn">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://mix.com/mixit?su=submit&url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn mix" title="Mix">
+<i class="ptio-mix"></i>
+</a>
+
+<a href="https://sharetodiaspora.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn diaspora" title="Diaspora*">
+<i class="fas fa-asterisk"></i>
+</a>
+</div>
+</div>
+
+<h3>Copia l'URL e la Descrizione</h3>
+
+<p>
+<input type="text" value="PrivacyTools - Crittografia e strumenti per la protezione contro la sorveglianza di massa globale - https://privacytools-it.github.io" class="form-control input-lg onclick-select" readonly>
+<span class="help-block">Clicca sul campo di testo per selezionare tutto il suo contenuto.</span>
+</p>
+
+<hr class="footer-divider">
+
+<div class="row mt-3">
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+<a href="/LICENSE.txt" title="Quest'opera è libera. La puoi redistribuire e/o modificare secondo i termini di licenza &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;." data-toggle="tooltip" data-placement="top">CC0</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="far fa-address-card fa-2x mr-2"></span> <a href="/about/">Chi Siamo &amp; Contatti</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fas fa-donate fa-2x mr-2"></span><a data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta questo progetto con una donazione. Non abbiamo pubblicità e non siamo affiliati con nessun servizio. La tua donazione coprirà i costi per server e domini." href="/donate/">Supportaci!</a>
+</div>
+</div>
+
+<br>
+
+<p>Ho deciso di tradurre <a href="https://www.privacytools.io/">PrivacyTools</a> per poter rendere accessibili alla comunità italiana le informazioni e gli strumenti per proteggersi contro la sorveglianza di massa globale nella società tecnologica attuale.</p>
+
+<p><strong>Questo sito è una traduzione.</strong> Puoi seguire tutte le "commit" del sito originale in Inglese - che verranno integrate in questa versione tradotta - <a href="https://github.com/privacytoolsIO/privacytools.io/commits/master">su GitHub</a>.
+Se vuoi contribuire a PrivacyTools con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo <a href="https://github.com/privacytoolsIO/privacytools.io">tramite GitHub</a> o <a href="https://www.reddit.com/r/privacytoolsIO/">Reddit</a>.</p>
+
+<p>Se hai trovato uno o più errori di traduzione o un problema con questa versione del sito, <a href="/about/">contattami</a>.</p>
+
+<p><a href="https://github.com/privacytools-it/privacytools-it.github.io/commits/master">
+	Ultima modifica al sito:
+	30
+	
+	
+	2020
+</a></p>
+
+<div class="copyright-text">
+	<a href="/about/javascript" data-jslicense="1"><span class="fab fa-js fa-lg"></span> Licenze JavaScript</a>
+	<p class="mt-2">
+		<strong>Nessuna pubblicità, niente Google Analytics, nessuna affiliazione, nessuna richiesta cross-site.</strong>
+		<em>PrivacyTools è un sito motivato dalla comunità che mette a disposizione informazioni sulla sicurezza dei dati e privacy. Non fidarti mai di nessuna compagnia quando si tratta della tua privacy, cripta sempre.</em>
+	</p>
+	<small><p><a href="/privacy/">Informativa sulla Privacy</a> | <a href="/notices/">Avvisi &amp; Liberatorie</a></small>
+</div>
+</footer>
+
+  </footer>
+</div>
+
+		<script src="/assets/js/jquery-3.3.1.min.js?v=2"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/sortable.min.js?v=2"></script>
+<script src="/assets/js/main.js?v=4"></script>
+
+	</body>
+</html>

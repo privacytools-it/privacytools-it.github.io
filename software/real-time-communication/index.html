@@ -1,0 +1,2161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="privacy, anonimato, privacy tools, sorveglianza, crittografia">
+	<meta name="description" content="Scopri tutti i modi sicuri e riservati per comunicare in gruppo online senza permettere a terzi di leggere i vostri messaggi.">
+	<link rel="canonical" href="https://privacytools-it.github.io/software/real-time-communication/">
+
+	<!-- title -->
+	
+	<title>Comunicazione in Tempo Reale | PrivacyTools-IT</title>
+	<meta property="og:title" content="Comunicazione in Tempo Reale | PrivacyTools-IT" />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://privacytools-it.github.io/software/real-time-communication/" />
+	<meta property="og:image" content="https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png" />
+	<meta property="og:description" content="Scopri tutti i modi sicuri e riservati per comunicare in gruppo online senza permettere a terzi di leggere i vostri messaggi."/>
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:site_name" content="PrivacyTools-IT" />
+
+	
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+	<link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+	<link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+	<link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/png/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#343a40">
+
+	<!-- CSS stylesheets -->
+	<link href="/assets/css/style.css?v=6" rel="stylesheet">
+	<link id="dark-css" href="/assets/css/dark.css?v=5" rel="stylesheet" media="(prefers-color-scheme: dark)">
+
+	
+	<!-- EOL redirect -->
+	<meta http-equiv="refresh" content="0; url=https://privacytools-it.github.io">
+	<script>location = "https://privacytools-it.github.io"</script>
+	
+</head>
+
+	<body data-spy="scroll" data-target="#navbar">
+		<script src="/assets/js/applytheme.js?v=1"></script>
+		<header>
+			<div class="fixed-top bg-dark">
+	<nav id="navbar">
+
+	<input type="checkbox" id="nav-toggle" checked />
+	<label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+	<a id="nav-home-mobile" class="nav-anchor" href="/index.html"><img src="/assets/img/png/layout/brand/horizontal.png" width="148px" height="22px"></a>
+
+	<div class="menu">
+		<div id="nav-left" class="position-relative flex-col">
+			<a class="nav-anchor" href="/index.html"> <span id="nav-home" class="fas fa-home fa-fw"></span></a>
+
+			<!-- Provider -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Provider <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Evita i servizi USA & UK</a>
+				<a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Aggregatori Social di Notizie</a>
+				<a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+				<a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+				<a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+				<a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Hosting</a>
+				<a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Motori di Ricerca</a>
+				<a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebin</a>
+				<a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Network</a>
+				<a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+				</span>
+			</details>
+
+			<!-- Browser -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Browser <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> Consigli</a>
+				<a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Informazioni sul Fingerprinting</a>
+				<a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> IP Leak WebRTC</a>
+				<a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> Estensioni dei Browser</a>
+				<a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> Modifiche a Firefox</a>
+				</span>
+			</details>
+
+			<!-- Software -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Software <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Appunti Digitali</a>
+				<a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Client Email</a>
+				<a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Comunicazione in Tempo Reale</a>
+				<a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> Condivisione File</a>
+				<a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> Crittografia File</a>
+				<a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+				<a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Produttività</a>
+				<a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Reti Autonome</a>
+				<a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Rimozione Metadati</a>
+				<a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Server Cloud Self-Hosted</a>
+				<a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Sincronizzazione Calendario/Contatti</a>
+				<a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Sincronizzazione File</a>
+				</span>
+			</details>
+
+			<!-- OS -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					OS <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> SO PC</a>
+				<a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> SO PC Live</a>
+				<a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> SO Mobile</a>
+				<a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> Add-on per Android</a>
+				<a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware per Router</a>
+				<a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> Non usare Windows 10</a>
+				</span>
+			</details>
+
+			<a class="nav-anchor" href="/index.html#participate">Partecipa</a>
+		</div>
+
+		<!-- Elements on the right -->
+		<div id="nav-right">
+			<a href="/services/" class="nav-anchor">Servizi</a>
+			<a href="https://blog.privacytools.io/" class="nav-anchor">Blog</a>
+			<a href="https://www.privacytools.io/sponsors/" class="nav-anchor">Sponsor</a>
+			<a href="/about/" class="nav-anchor">Su di Noi</a>
+			<span id="nav-switch-theme" class="nav-anchor">
+				<span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Tema"></span>
+				<span class="sr-only">Cambia Tema</span>
+			</span>
+			<details class="nav-details">
+				<summary>
+					<span class="nav-summary">
+						<!-- Language (not localized on purpose) -->
+						<span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+						<span class="sr-only">Language Selection</span>
+						<span class="dropdown-toggle"></span>
+					</span>
+				</summary>
+				<span class="nav-dropdown">
+					<a href="https://www.privacytools.io/" class="dropdown-item">English</a>
+					<a href="https://privacytools.twngo.xyz/" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+					<a href="https://victorhck.gitlab.io/privacytools-es/" rel="nofollow noopener" class="dropdown-item">Español</a>
+					<a href="https://pl.privacytools.io/" rel="nofollow noopener" class="dropdown-item">Polski</a>
+					<a href="https://www.privacidade.digital/" rel="nofollow noopener" class="dropdown-item">Português</a>
+					<a href="https://privacytools.it-sec.rocks/" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+					<a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
+					<a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
+				</span>
+			</details>
+		</div>
+	</div>
+	</nav>
+</div>
+
+			<div id="top" class="py-4"></div>
+		</header>
+		<div class="container" role="main">
+  <main>
+  <nav id="breadcrumb" aria-label="breadcrumb">
+	
+	<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="breadcrumb-item"><a href="/"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+		
+			
+				<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a href="/software/" itemprop="item"><span itemprop="name">Software</span></a>
+				<meta itemprop="position" content="1" />
+				</li>
+			
+		
+			
+				<li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<link href="/software/real-time-communication/" itemprop="item"/>
+				<span itemprop="name">Real Time Communication </span>
+				<meta itemprop="position" content="2" />
+				</li>
+			
+		
+	</ol>
+</nav>
+
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Comunicazione in Tempo Reale</h1>
+  <p class="lead">Scopri tutti i modi sicuri e riservati per comunicare in gruppo online senza permettere a terzi di leggere i vostri messaggi.</p>
+</div>
+
+<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Messaggistica Istantanea Criptata</h1>
+
+<div>
+<p>Consigliamo solo programmi o app di messaggistica istantanea che supportano la <a href="https://it.wikipedia.org/wiki/Crittografia_end-to-end">crittografia end-to-end (E2EE)</a>. Quando si utilizza E2EE, tutte le trasmissioni (messaggi, voce, video, ecc.) sono criptate <strong>prima</strong> di essere inviati dal tuo dispositivo. E2EE protegge sia l'autenticità che la riservatezza della trasmissione attraverso qualsiasi parte della rete (server, ecc.).</p>
+<p>Tutti i client (programmi/app) che scegliamo sono <a href="https://it.wikipedia.org/wiki/Free_and_Open_Source_Software">software libero ed open source</a> a meno che non venga specificato altrimenti. Questo per assicurarsi che il codice possa essere indipendentemente verificato da degli esperti adesso e in futuro.</p>
+<p>Abbiamo descritto i tre principali tipi di programmi di messaggistica esistenti: Centralizzati, Federati e Peer-to-Peer (P2P), con i vantaggi e svantaggi per ogni caso.</p>
+
+<h2 id="centralized" class="anchor"><a href="#centralized"><i class="fas fa-link anchor-icon"></i></a> Centralizzati</h2>
+<p>Nella messaggistica centralizzata tutti i partecipanti si trovano sullo stesso server o rete controllati dalla stessa organizzazione.</p>
+
+<h3>Vantaggi</h3>
+<ul>
+	<li>Nuove funzionalità e cambiamenti possono essere implementate più rapidamente.</li>
+	<li>Più semplice da utilizzare e trovare contatti.</li>
+</ul>
+
+<h3>Svantaggi</h3>
+<ul>
+	<li>I servizi centralizzati potrebbero essere più vulnerabili a <a href="#exploiting-centralized-networks">normative che richiedono una backdoor</a>.</li>
+	<li>Possono avere <a href="https://drewdevault.com/2018/08/08/Signal.html">controllo e accesso limitati</a>. Questo include cose come:</li>
+	<ul>
+		<li>La <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">connessione tramite client di terze parti</a> alla rete centralizzata - che potrebbe dare una migliore personalizzazione o migliore esperienza - è proibita. Spesso definita nei Termini e Condizioni d'uso.</li>
+		<li>Scarsa o nessuna documentazione per sviluppatori terzi.</li>
+	</ul>
+	<li><a href="https://blog.privacytools.io/delisting-wire">Possesso</a>, privacy policy e le operazioni del servizio possono cambiare facilmente quando questi sono controllati da un'unica entità, potenzialmente compromettendo il servizio in futuro.</li>
+</ul>
+</div>
+
+<div class="alert alert-warning" role="alert"><strong>Se in questo momento stai utilizzando Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a> o messaggi SMS, dovresti scegliere una di queste alternative.</strong></div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Signal
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/signal.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Signal"
+		>
+		Signal è un'app mobile sviluppata da Open Whisper Systems. Oltre all'instant messaging, Signal permette anche di effettuare chiamate voce e video. Tutte le comunicazioni sono criptate end-to-end. Signal è gratuito ed open source.
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-warning"
+			
+				data-toggle="tooltip"
+				title="Signal richiede il tuo numero di telefono come identificativo personale, ciò significa che verrà visto da tutte le persone con cui comunichi."
+				> <a>Richiede un numero di telefono</a> <i class="far fa-question-circle"></i>
+			
+			</span>
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-success"
+			
+				> VoIP
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://signal.org"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-signal/664"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://signal.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://signal.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://signal.org/download/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://signal.org/android/apk/#apk-danger" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/signal-private-messenger/id874139669" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/signalapp" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Keybase
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/keybase.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Keybase"
+		>
+		Keybase mette a disposizione una chat di gruppo con crittografia end-to-end. È stato anche sottoposto ad un <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">audit indipendente (PDF)</a>. Keybase ti aiuta a dimostrare che possiedi degli account sui social media tramite l'utilizzo di firme crittografiche "<a href="https://en.wikipedia.org/wiki/Keybase#Identity_proofs">identity proof</a>".
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-warning"
+			
+				data-toggle="tooltip"
+				title="Questo software si appoggia ad un server centrale closed source."
+				> <a href=//github.com/keybase/client/issues/6374>Attenzione</a> <i class="far fa-question-circle"></i>
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://keybase.io/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-keybase/1224"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+			<a
+			href="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
+			rel="noopener"
+			class="hover-text-decoration-none mt-1 mr-1"
+			data-toggle="tooltip"
+			data-placement="bottom"
+			data-original-title="Richiede software specifico per accedere: torproject.org">
+			<span class="ptio-tor btn-tor btn-icon"></span>
+			</a>
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_windows" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_macos" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_linux" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.freshports.org/security/keybase/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/it/firefox/addon/keybase-for-firefox/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/keybase-for-reddit/ognfafcpbkogffpmmdglhbjboeojlefj?hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://apps.apple.com/it/app/keybase-crypto-for-everyone/id1044461770" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/Keybase" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div>
+<h2 id="federated" class="anchor"><a href="#federated"><i class="fas fa-link anchor-icon"></i></a> Federati</h2>
+<p>Nella messaggistica federata si utilizzano più server indipendenti che sono in grado di comunicare tra loro (la posta elettronica è un esempio di servizio federato). La federazione permette agli amministratori di sistema di controllare il proprio server ed essere comunque parte di una rete di comunicazione più ampia.</p>
+
+<h3>Vantaggi</h3>
+<ul>
+	<li>Permette un maggiore controllo sui tuoi dati quando si gestisce il proprio server.</li>
+	<li>Ti permette di scegliere a chi affidare i tuoi dati scegliendo quale dei molteplici server "pubblico" utilizzare.</li>
+	<li>Spesso permette l'utilizzo di client di terze parti che possono offrire un'esperienza più nativa, personalizzata o accessibile.</li>
+	<li>Generalmente un bersaglio meno attraente per i governi che vogliono <a href="#exploiting-centralized-networks">un accesso completo tramite backdoor</a> poiché la fiducia è decentralizzata. Il server può essere hostato in modo indipendente dall'organizzazione che sviluppa il software.</li>
+	<li>È possibile verificare che il software eseguito nel server corrisponda al codice sorgente pubblico, impotizzando che tu abbia accesso al server o ti fidi della persona a cui ha accesso (es: familiare)</li>
+	<li>Sviluppatori terzi possono contribuire al codice ed aggiungere nuove funzionalità, invece di aspettare che un team di sviluppo privato lo faccia.</li>
+</ul>
+
+<h3>Svantaggi</h3>
+<ul>
+	<li>Aggiungere nuove funzionalità è più complesso, poiché quest'ultime debbono essere standardizzate e testate per assicurarsi che funzionino con tutti i server nella rete.</li>
+	<li>Potrebbe rimanere traccia di alcuni metadati. Informazioni quali "chi sta parlando con chi" ma non i contenuti della conversazione se si utilizza E2EE.</li>
+	<li>Utilizzare server federati generalmente richiedono la fiducia dell'amministratore del server scelto. Potrebbe gestire il server come hobby oppure potrebbe non essere un "esperto di sicurezza" e potrebbero non pubblicare documenti standard come una privacy policy o termini di servizio che descrivono in modo dettagliato come vengono utilizzati i tuoi dati.</li>
+	<li>Qualche volta gli amministratori dei server scelgono di bloccare altri server che sono fonte di abusi non moderati o infrangono le regole dei comportamenti accettabili. Questo ostacolerà la tua capacità di comunicare con gli utenti in quei server.</li>
+</ul>
+</div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Matrix
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/matrix.svg"
+		
+        data-theme-src="/assets/img/svg/3rd-party/matrix-dark.svg"
+        
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Matrix"
+		>
+		<a href="https://matrix.org/docs/guides/introduction">Matrix</a> è un progetto open source che pubblica il <a href="https://matrix.org/docs/spec">protocollo aperto Matrix</a> per comunicazioni sicure, decentralizzate ed in tempo reale.<br />
+<a href="https://en.wikipedia.org/wiki/Riot.im">Riot.im</a> è il popolare client di riferimento creato dal team di Matrix.org. Offre E2EE facoltativa per le conversazioni 1:1 e di gruppo che <strong>deve</strong> essere attivata dall'utente. (La si può attivare cliccando l'interruttore accessibile cliccando il nome della stanza o il nome utente della chat → Sicurezza &amp; Privacy → Criptato). In futuro sarà <a href="https://github.com/vector-im/riot-web/issues/6779">attivata per impostazione predefinita.</a>
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://about.riot.im/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-riot-im/665/"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/repository/browse/?fdid=im.vector.alpha" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=im.vector.app&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://itunes.apple.com/it/app/vector.im/id1083446067" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://riot.im/app/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/vector-im/riot-web/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div>
+<h4>Vale la Pena Menzionare</h4>
+<ul>
+	<li>Altri client <a href="https://matrix.org/clients">Matrix</a> che però potrebbero avere meno funzionalità di Riot.im.</li>
+	<li><a href="https://xmpp.org/about">XMPP</a> (Extensible Messaging and Presence Protocol) è un protocollo open source per le comunicazioni il cui sviluppo è iniziato nel 1999. Da allora, XMPP è stato esteso dalla pubblicazione degli XEP (XMPP Extension Protocols). <a href="https://conversations.im/omemo/">OMEMO</a> è lo XEP (XMPP extension) più popolare per l'E2EE. I client sono sviluppati dalla community e non da XSF (XMPP Standards Foundation). <span class="badge badge-warning" data-toggle="tooltip" title="VoIP e il trasferimento file/nomi potrebbe non essere criptato end-to-end.">E2EE Incoerente</span></li>
+	<ul>
+		<li><a href="https://gajim.org/">Gajim</a></li>
+		<li><a href="https://conversations.im">Conversations</a></li>
+		<li><a href="https://siskin.im/">Siskin</a></li>
+		<li>Altri client che supportano <a href="https://omemo.top">OMEMO</a>.</li>
+	</ul>
+	<li><a href="https://www.kontalk.org">Kontalk</a> è una rete di messaggistica istantanea basata su XMPP gestita dalla community.</li>
+</ul>
+
+<h2 id="peer-to-peer" class="anchor"><a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a> Peer to Peer (P2P)</h2>
+<p>I messenger Peer-to-Peer si connettono direttamente tra loro senza l'ausilio di server terzi. I client (peer) solitamente si trovano tra loro attraverso l'utilizzo della rete a <a href="https://it.wikipedia.org/wiki/Calcolo_distribuito">calcolo distribuito</a>. Esempi di ciò includono <a href="https://it.wikipedia.org/wiki/Tabella_di_hash_distribuita">DHT (distributed hash table, tabella di hash distribuita)</a> (utilizzata, per esempio, con tecnologie come <a href="https://it.wikipedia.org/wiki/BitTorrent">torrent</a> e <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>) od il protocollo <a href="https://github.com/ethereum/wiki/wiki/Whisper">Whisper</a> di <a href="https://it.wikipedia.org/wiki/Ethereum">Ethereum</a> (utilizzato con alcune DApp recenti). Un altro approccio sono le reti basate sulla prossimità, dove viene stabilita una connessione attraverso WiFi o Bluetooth (ad esempio Briar o il protocollo di social networking <a href="https://www.scuttlebutt.nz">Scuttlebutt</a>). Una volta che il peer avrà trovato una strada verso il suo contatto attraverso uno di questi metodi viene stabilita una connessione diretta.</p>
+
+<h3>Vantaggi</h3>
+<ul>
+	<li>La quantità di informazioni esposte a terzi è ridotta al minimo.</li>
+	<li>Le piattaforme P2P moderne implementano di default la crittografia end-to-end. Non ci sono server che potrebbero potenzialmente intercettare e decriptare le tue trasmissioni, al contrario dei modelli centralizzati e federati.</li>
+</ul>
+
+<h3>Svantaggi</h3>
+<ul>
+	<li>Set di funzionalità ridotto:</li>
+	<ul>
+		<li>I messaggi possono essere spediti solo se entrambi i peer sono online, tuttavia, il client potrebbe conservare i messaggi in locale mentre attende che il contatto si riconnetta.</li>
+		<li>L'utilizzo della batteria nei dispositivi mobile è generalmente maggiore, perché il client deve rimanere connesso alla rete distribuita per capire chi è online.</li>
+	</ul>
+	<li>Il tuo <a href="https://it.wikipedia.org/wiki/Indirizzo_IP">indirizzo IP</a> e quello dei contatti con cui stai comunicando potrebbe essere visibile se non utilizzi il software assieme ad una <a href="/software/networks">rete autonoma</a>, come ad esempio <a href="https://www.torproject.org">Tor</a> o <a href="https://geti2p.net/">I2P</a>. Molti paesi hanno qualche forma di sorveglianza di massa e/o conservazione di metadati.</li>
+</ul>
+</div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Briar
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/briar.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Briar"
+		>
+		Messaggistica instantanea che connette i contatti attraverso Wi-Fi, Bluetooth o Tor attraverso internet per sincronizzare i messaggi. Tecnologia di questo tipo si è dimostrata utile quando la connettività ad Internet è un problema, come ad esempio in tempi di crisi.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://briarproject.org"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-briar/2114"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/packages/org.briarproject.briar.android/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.briarproject.briar.android&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+			<a href="https://code.briarproject.org/briar/briar" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Jami
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/jami.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Jami"
+		>
+		Software di messaggistica istantanea e chiamate video criptati. Utilizza <a href=//jami.net/improving-performance-and-security-with-tls-1-3/>TLS 1.3</a> per la crittografia.
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-success"
+			
+				> VoIP
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://jami.net/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-jami/2116"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://jami.net/download-jami-windows" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://jami.net/download-jami-macos" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://jami.net/download-jami-linux" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/packages/cx.ring/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=cx.ring&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://itunes.apple.com/it/app/ring-a-gnu-package/id1306951055?mt=8" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+			<a href="https://git.jami.net/savoirfairelinux" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Tox
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/tox.svg"
+		
+        data-theme-src="/assets/img/svg/3rd-party/tox-dark.svg"
+        
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Tox"
+		>
+		Software di messaggistica istantanea e chiamate video criptati. Utilizza il <a href="https://toktok.ltd/spec.html">proprio protocollo di crittografia</a> che non è ancora stato ufficialmente sottoposto ad audit dai crittografi.
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-warning"
+			
+				data-toggle="tooltip"
+				title="La crittografia non è stata sottoposta ad audit da crittografi professionisti"
+				> <a href=//tox.chat/download.html#warning>Experimental</a> <i class="far fa-question-circle"></i>
+			
+			</span>
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-success"
+			
+				> VoIP
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://tox.chat"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-tox/2115"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://openports.se/search.php?so=tox" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="http://pkgsrc.se/search.php?so=tox" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://tox.chat/download.html#oses" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h4>Vale la Pena Menzionare</h4>
+<ul>
+<li><a href="https://status.im">Status.im</a> - Messaggisitca istantanea criptata con un wallet <a href="https://it.wikipedia.org/wiki/Ethereum">Ethereum</a> (criptovaluta) integrato che include anche il supporto a <a href="https://our.status.im/tag/dapps">DApps (Decentralized Apps)</a> (web app in uno store curato). Utilizza il <a href="https://blog.enuma.io/update/2018/08/08/decentralized-application-messaging-with-whisper.html">protocollo Whisper</a> per le comunicazioni P2P. <span class="badge badge-warning">Sperimentale</span></li>
+<li><a href="https://retroshare.cc">RetroShare</a> - Client di messaggistica istantanea e chiamate audio/video criptate. RetroShare supporta sia <a href="https://www.torproject.org/">Tor</a> che <a href="https://geti2p.net">I2P</a>.</li>
+<li><a href="https://bitmessage.org">Bitmessage</a> è un protocollo di comunicazione decentralizzato, criptato e peer-to-peer che può essere usato da una persona per inviare messaggi criptati ad un'altra persona o più abbonati.</li>
+</ul>
+
+
+<h3 id="exploiting-centralized-networks" class="anchor"><a href="#exploiting-centralized-networks"><i class="fas fa-link anchor-icon"></i></a> Recenti notizie in merito alla "rottura" dell'E2EE negli instant messenger centralizzati.</h3>
+
+<h5>Novembre 2019</h5>
+<ul>
+	<li><a href="https://www.reuters.com/article/us-interpol-encryption-exclusive-idUSKBN1XR0S7">Esclusiva: L'Interpol è intenzionato a condannare la diffusione della crittografia, citando i predatori, secondo le fonti (Reuters)</a></li>
+	<li><a href="https://arstechnica.com/tech-policy/2019/11/think-of-the-children-fbi-sought-interpol-statement-against-end-to-end-crypto/">Pensate ai bambini: L'FBI ha richiesto la dichiarazione dell'Interpol contro la crittografia end-to-end (ArsTechnica)</a></li>
+</ul>
+
+<h5>Ottobre 2019</h5>
+<ul>
+	<li><a href="https://www.eff.org/deeplinks/2019/10/open-letter-governments-us-uk-and-australia-facebook-all-out-attack-encryption">La Lettera Aperta dai Governi US, UK e Australia a Facebook è Un Grande Attacco alla Crittografia (EFF)</a></li>
+	<li><a href="https://arstechnica.com/tech-policy/2019/10/the-broken-record-why-barrs-call-against-end-to-end-encryption-is-nuts/">Il disco rotto: Perché l'appello di Barr contro la crittografia end-to-end è folle (ArsTechnica)</a></li>
+	<li><a href="https://arstechnica.com/information-technology/2019/10/ag-barr-is-pushing-facebook-to-backdoor-whatsapp-and-halt-encryption-plans">Gli US vogliono una backdoor su Facebook e WhatsApp e bloccare la crittografia (ArsTechnica)</a></li>
+</ul>
+
+<h5>Agosto 2019</h5>
+<ul><li><a href="https://arstechnica.com/tech-policy/2019/08/post-snowden-tech-became-more-secure-but-is-govt-really-at-risk-of-going-dark">La tecnologia post Snowden è diventata più sicura, ma il governo è davvero a rischio di rimanere al buio? (ArsTechnica)</a></li></ul>
+
+<h5>Luglio 2019</h5>
+<ul>
+	<li><a href="https://techcrunch.com/2019/07/23/william-barr-consumers-security-risks-backdoors/">Il procuratore generale statunitense William Barr dice che gli americani dovrebbero accettare i rischi di sicurezza delle backdoor nella crittografia. (TechCrunch)</a></li>
+	<li><a href="https://www.theregister.co.uk/2019/07/23/us_encryption_backdoor/">Low Barr: Non raccontatemi queste idiozie sulla sicurezza, mettete le backdoor nella crittografia e basta, ruggisce il Procuratore Generale degli Stati Uniti. (The Register)</a></li>
+</ul>
+
+<h5>Maggio 2019</h5>
+<ul><li><a href="https://www.theguardian.com/uk-news/2019/may/30/apple-and-whatsapp-condemn-gchq-plans-to-eavesdrop-on-encrypted-chats">Apple e WhatsApp condannano i piani del GCHQ di spiare nelle chat criptate (The Guardian)</a></li></ul>
+
+<h5>Gennaio 2019</h5>
+<ul><li><a href="https://www.justsecurity.org/62114/give-ghost-backdoor/">Smaschera Il Ghost: Una Backdoor Con Un Altro Nome (Just Security)</a></li></ul>
+
+<h5>Dicembre 2018</h5>
+<ul><li><a href="https://www.zdnet.com/article/whats-actually-in-australias-encryption-laws-everything-you-need-to-know/">Cosa c'è veramente nelle leggi sulla crittografia dell'Australia? Tutto quello che devi sapere (ZDnet)</a></li></ul>
+
+<h3>Comparazione Completa</h3>
+<ul>
+	<li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a> - Comparazione App di Messaggistica Sicura.</li>
+	<li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a> - Guida alla Scelta di un Messenger.</li>
+</ul>
+
+<h3 id="#rtc-independent-security-audits">Audit di sicurezza indipendenti</h3>
+<ul>
+	<li><a href="https://eprint.iacr.org/2016/1013.pdf">Un'Analisi di Sicurezza Ufficiale del Protocollo di Messaggisitca Signal (2019)</a> di Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt e Douglas Stebila</li>
+	<li><a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Revisione del Protocollo di Sicurezza di Keybase (2019)</a> dell'<a href="https://www.nccgroup.trust/">NCC Group</a></li>
+	<li><a href="https://www.nccgroup.trust/us/our-research/matrix-olm-cryptographic-review/">Revisione Crittografica di Matrix Olm</a></li>
+	<li><a href="https://briarproject.org/news/2017-beta-released-security-audit">Briar - Il Messenger che si Appoggia Alla Darknet Rilascia la Beta, Passa l'Audit sulla Sicurezza</a></li>
+</ul>
+
+<hr />
+
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Chiamate Audio/Video</h1>
+
+<div class="alert alert-warning" role="alert"><strong>Se in questo momento stai utilizzando Skype, Viber o Google Hangouts dovresti scegliere una di queste alternative.</strong></div>
+	
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Linphone
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/linphone.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Linphone"
+		>
+		Linphone è un telefono SIP open source ed un servizio VoIP, disponibile in ambienti desktop e browser web. Supporta ZRTP per criptare le comunicazioni audio e video end-to-end.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://www.linphone.org/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-linphone/751"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/packages/org.linphone" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=org.linphone" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://itunes.apple.com/us/app/linphone/id360065638?mt=8" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/BelledonneCommunications" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Mumble
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/mumble.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Mumble"
+		>
+		Mumble è un software open source di chat vocale di alta qualità e a bassa latenza progettato principalmente per l'utilizzo durante il gaming. Anche se Mumble non conserva messaggi né registra di default, <a href="https://github.com/mumble-voip/mumble/issues/1813">la crittografia end-to-end non è presente</a>, quendi si raccomanda il self-hosting.
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://mumble.info/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-mumble/1289"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://www.mumble.info/downloads" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.mumble.info/downloads" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.mumble.info/downloads" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://www.mumble.info/downloads/#third-party-clients" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://apps.apple.com/us/app/mumble/id443472808?ls=1" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/mumble-voip/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<h3>Vale la Pena Menzionare</h3>
+
+<ul>
+<li><a href="https://jitsi.org/">Jitsi Meet</a> - Jitsi Meet è un'applicazione di messaggistica istantanea, video conferenza e voce (VoIP). <span class="badge badge-warning" data-toggle="tooltip" title="Le nostre modifiche a Firefox raccomandano di disabilitare WebRTC poiché può essere utilizzato per trapelare il tuo indirizzo IP anche da dietro una VPN, ecco perché Tor Browser lo disabilita.">Richiede WebRTC</span></li></li>
+</ul>
+
+<h3>Informazioni Correlate</h3>
+
+<ul>
+<li>Ulteriori Informazioni su Mumble:</li>
+<ul>
+<li><a href="https://wiki.mumble.info/wiki/Running_Murmur">Ospitare un server Mumble</a> e <a href="https://wiki.mumble.info/wiki/Murmur.ini">la sua configurazione</a>, in particolare <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">l'offuscamento degli indirizzi IPv4</a> e <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">il logging</a></li>
+<li><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Server Mumble attraverso Tor</a>
+</ul>
+</ul>
+
+
+<hr />
+
+<h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Piattaforme per Chat di Gruppo</h1>
+
+<div class="alert alert-warning" role="alert">
+	<strong>Se in questo momento il tuo progetto od organizzazione sta utilizzando <a href="https://tosdr.org/#discord">Discord</a>
+	o <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> dovresti scegliere una di queste alternative.</strong>
+</div>
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Matrix
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/matrix.svg"
+		
+        data-theme-src="/assets/img/svg/3rd-party/matrix-dark.svg"
+        
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Matrix"
+		>
+		<a href="https://matrix.org/docs/guides/introduction">Matrix</a> è un progetto open source che pubblica il <a href="https://matrix.org/docs/spec">protocollo aperto Matrix</a> per comunicazioni sicure, decentralizzate ed in tempo reale.<br />
+<a href="https://en.wikipedia.org/wiki/Riot.im">Riot.im</a> è il popolare client di riferimento creato dal team di Matrix.org. Offre E2EE facoltativa per le conversazioni 1:1 e di gruppo che <strong>deve</strong> essere attivata dall'utente. (La si può attivare cliccando l'interruttore accessibile cliccando il nome della stanza o il nome utente della chat → Sicurezza &amp; Privacy → Criptato). In futuro sarà <a href="https://github.com/vector-im/riot-web/issues/6779">attivata per impostazione predefinita.</a>
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://about.riot.im/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-riot-im/665/"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://riot.im/download/desktop/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/it/packages/im.vector.alpha/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=im.vector.app&hl=it" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://itunes.apple.com/it/app/vector.im/id1083446067" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://riot.im/app/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/vector-im/riot-web/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Rocket.chat
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/rocketchat.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Rocket.chat"
+		>
+		Rocket.chat è una piattaforma open source self-hostable per comunicazioni di gruppo. Federazione facoltativa e E2EE sperimentale.
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-warning"
+			
+				data-toggle="tooltip"
+				title="La documentazione riguardo la E2EE dice «Questa funzionalità è al momento in alpha. Inoltre non è ancora supportata su mobile. Non c'è forward secrecy pertanto una decrittazione compromessa esporrebbe tutti i messaggi. La federazione è stata aggiunta in seguito lasciando potenzialmente spazio a degli errori.»"
+				> <a href=//rocket.chat/docs/user-guides/end-to-end-encryption>E2EE Sperimentale</a> <i class="far fa-question-circle"></i>
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://rocket.chat/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://rocket.chat/install" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://itunes.apple.com/us/app/rocket-chat/id1086818840" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://rocket.chat/install" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://f-droid.org/packages/chat.rocket.android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=chat.rocket.android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://itunes.apple.com/app/rocket-chat/id1148741252" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/rocketchat/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+<div class="card">
+	<div class="card-header text-white bg-secondary">
+	<h3 class="h5">
+		
+		Keybase
+		
+	</h3>
+	</div>
+	<div class="card-body">
+	<p class="card-text">
+		<img
+		src="/assets/img/svg/3rd-party/keybase.svg"
+		
+		height="120"
+		width="120"
+		class="panel-pic"
+		alt="Logo Keybase"
+		>
+		Keybase mette a disposizione una chat di gruppo con crittografia end-to-end. È stato anche sottoposto ad un <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">audit indipendente (PDF)</a>.
+		
+		
+		
+			
+			
+			
+			
+			
+			<span
+			class="badge badge-warning"
+			
+				data-toggle="tooltip"
+				title="Il lato server di Keybase funziona con codice proprietario ed è centralizzato."
+				> <a href=//github.com/keybase/client/issues/6374>Attenzione</a> <i class="far fa-question-circle"></i>
+			
+			</span>
+		
+		
+	</p>
+	<div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+		<div class="d-flex flex-shrink-0 mr-1">
+		<a
+			href="https://keybase.io/"
+			rel="noopener"
+			class="btn btn-primary mt-1 mr-1">
+			<i class="fas fa-external-link-alt fa-fw"></i>
+			Sito Web
+		</a>
+		
+			<a
+			href="https://forum.privacytools.io/t/discussion-keybase/1224"
+			rel="noopener"
+			class="btn btn-success mt-1 mr-1">
+			<i class="fab fa-discourse fa-fw"></i>
+			Forum
+			</a>
+		
+		
+			<a
+			href="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
+			rel="noopener"
+			class="hover-text-decoration-none mt-1 mr-1"
+			data-toggle="tooltip"
+			data-placement="bottom"
+			data-original-title="Richiede software specifico per accedere: torproject.org">
+			<span class="ptio-tor btn-tor btn-icon"></span>
+			</a>
+		
+		
+		</div>
+
+		<div class="mt-2">
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_windows" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_macos" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://keybase.io/docs/the_app/install_linux" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://www.freshports.org/security/keybase/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://addons.mozilla.org/en-US/firefox/addon/keybase-for-firefox/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+			
+				<a href="https://chrome.google.com/webstore/detail/keybase-for-reddit/ognfafcpbkogffpmmdglhbjboeojlefj" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+				<a href="https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+			
+				<a href="https://keybase.io/_/download/keybase-for-ios" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+				</a>
+			
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+			<a href="https://github.com/Keybase" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+				<i class="fab fa-github fa-2x fa-fw d-inline"></i>
+			</a>
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+	</div>
+</div>
+<br>
+
+
+
+
+  </main>
+  <footer>
+  <footer>
+<hr class="footer-divider" />
+
+<h3 id="participate">Spargi la voce ed aiuta i tuoi amici</h3>
+
+<div class="row mb-4">
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="mailto:?subject=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&body=https://privacytools-it.github.io" class="share-btn email" title="Email">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://privacytools-it.github.io" class="share-btn facebook" title="Facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://twitter.com/share?text=Conoscenza%20e%20strumenti%20per%20proteggere%20la%20tua%20privacy%20contro%20la%20sorveglianza%20di%20massa%20globale%20&amp;url=https://privacytools-it.github.io&amp;via=privacytoolsIO" class="share-btn twitter" title="Twitter">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="https://sharetomastodon.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn mastodon" title="Mastodon">
+<i class="fab fa-mastodon"></i>
+</a>
+</div>
+
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="https://reddit.com/submit?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn reddit" title="reddit">
+<i class="fab fa-reddit-alien"></i>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn linkedin" title="LinkedIn">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://mix.com/mixit?su=submit&url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn mix" title="Mix">
+<i class="ptio-mix"></i>
+</a>
+
+<a href="https://sharetodiaspora.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn diaspora" title="Diaspora*">
+<i class="fas fa-asterisk"></i>
+</a>
+</div>
+</div>
+
+<h3>Copia l'URL e la Descrizione</h3>
+
+<p>
+<input type="text" value="PrivacyTools - Crittografia e strumenti per la protezione contro la sorveglianza di massa globale - https://privacytools-it.github.io" class="form-control input-lg onclick-select" readonly>
+<span class="help-block">Clicca sul campo di testo per selezionare tutto il suo contenuto.</span>
+</p>
+
+<hr class="footer-divider">
+
+<div class="row mt-3">
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+<a href="/LICENSE.txt" title="Quest'opera è libera. La puoi redistribuire e/o modificare secondo i termini di licenza &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;." data-toggle="tooltip" data-placement="top">CC0</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="far fa-address-card fa-2x mr-2"></span> <a href="/about/">Chi Siamo &amp; Contatti</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fas fa-donate fa-2x mr-2"></span><a data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta questo progetto con una donazione. Non abbiamo pubblicità e non siamo affiliati con nessun servizio. La tua donazione coprirà i costi per server e domini." href="/donate/">Supportaci!</a>
+</div>
+</div>
+
+<br>
+
+<p>Ho deciso di tradurre <a href="https://www.privacytools.io/">PrivacyTools</a> per poter rendere accessibili alla comunità italiana le informazioni e gli strumenti per proteggersi contro la sorveglianza di massa globale nella società tecnologica attuale.</p>
+
+<p><strong>Questo sito è una traduzione.</strong> Puoi seguire tutte le "commit" del sito originale in Inglese - che verranno integrate in questa versione tradotta - <a href="https://github.com/privacytoolsIO/privacytools.io/commits/master">su GitHub</a>.
+Se vuoi contribuire a PrivacyTools con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo <a href="https://github.com/privacytoolsIO/privacytools.io">tramite GitHub</a> o <a href="https://www.reddit.com/r/privacytoolsIO/">Reddit</a>.</p>
+
+<p>Se hai trovato uno o più errori di traduzione o un problema con questa versione del sito, <a href="/about/">contattami</a>.</p>
+
+<p><a href="https://github.com/privacytools-it/privacytools-it.github.io/commits/master">
+	Ultima modifica al sito:
+	30
+	
+	
+	2020
+</a></p>
+
+<div class="copyright-text">
+	<a href="/about/javascript" data-jslicense="1"><span class="fab fa-js fa-lg"></span> Licenze JavaScript</a>
+	<p class="mt-2">
+		<strong>Nessuna pubblicità, niente Google Analytics, nessuna affiliazione, nessuna richiesta cross-site.</strong>
+		<em>PrivacyTools è un sito motivato dalla comunità che mette a disposizione informazioni sulla sicurezza dei dati e privacy. Non fidarti mai di nessuna compagnia quando si tratta della tua privacy, cripta sempre.</em>
+	</p>
+	<small><p><a href="/privacy/">Informativa sulla Privacy</a> | <a href="/notices/">Avvisi &amp; Liberatorie</a></small>
+</div>
+</footer>
+
+  </footer>
+</div>
+
+		<script src="/assets/js/jquery-3.3.1.min.js?v=2"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/sortable.min.js?v=2"></script>
+<script src="/assets/js/main.js?v=4"></script>
+
+	</body>
+</html>

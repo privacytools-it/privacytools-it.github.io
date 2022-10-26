@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="referrer" content="no-referrer">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="privacy, anonimato, privacy tools, sorveglianza, crittografia">
+	<meta name="description" content="Non permettere a Google di vedere tutto il tuo traffico DNS. Scopri alternative incentrate sulla privacy ai tradizionali DNS.">
+	<link rel="canonical" href="https://privacytools-it.github.io/providers/dns/">
+
+	<!-- title -->
+	
+	<title>Resolver DNS Criptati | PrivacyTools-IT</title>
+	<meta property="og:title" content="Resolver DNS Criptati | PrivacyTools-IT" />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://privacytools-it.github.io/providers/dns/" />
+	<meta property="og:image" content="https://privacytools-it.github.io/assets/img/png/layout/brand/square-transparent.png" />
+	<meta property="og:description" content="Non permettere a Google di vedere tutto il tuo traffico DNS. Scopri alternative incentrate sulla privacy ai tradizionali DNS."/>
+	<meta property="og:locale" content="it_IT" />
+	<meta property="og:site_name" content="PrivacyTools-IT" />
+
+	
+
+	<!-- icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+	<link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+	<link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+	<link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/assets/img/png/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#343a40">
+
+	<!-- CSS stylesheets -->
+	<link href="/assets/css/style.css?v=6" rel="stylesheet">
+	<link id="dark-css" href="/assets/css/dark.css?v=5" rel="stylesheet" media="(prefers-color-scheme: dark)">
+
+	
+	<!-- EOL redirect -->
+	<meta http-equiv="refresh" content="0; url=https://privacytools-it.github.io">
+	<script>location = "https://privacytools-it.github.io"</script>
+	
+</head>
+
+	<body data-spy="scroll" data-target="#navbar">
+		<script src="/assets/js/applytheme.js?v=1"></script>
+		<header>
+			<div class="fixed-top bg-dark">
+	<nav id="navbar">
+
+	<input type="checkbox" id="nav-toggle" checked />
+	<label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+	<a id="nav-home-mobile" class="nav-anchor" href="/index.html"><img src="/assets/img/png/layout/brand/horizontal.png" width="148px" height="22px"></a>
+
+	<div class="menu">
+		<div id="nav-left" class="position-relative flex-col">
+			<a class="nav-anchor" href="/index.html"> <span id="nav-home" class="fas fa-home fa-fw"></span></a>
+
+			<!-- Provider -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Provider <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> Evita i servizi USA & UK</a>
+				<a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> Aggregatori Social di Notizie</a>
+				<a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+				<a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+				<a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+				<a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> Hosting</a>
+				<a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> Motori di Ricerca</a>
+				<a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> Pastebin</a>
+				<a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Network</a>
+				<a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+				</span>
+			</details>
+
+			<!-- Browser -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Browser <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> Consigli</a>
+				<a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Informazioni sul Fingerprinting</a>
+				<a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> IP Leak WebRTC</a>
+				<a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> Estensioni dei Browser</a>
+				<a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> Modifiche a Firefox</a>
+				</span>
+			</details>
+
+			<!-- Software -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					Software <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Appunti Digitali</a>
+				<a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Client Email</a>
+				<a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Comunicazione in Tempo Reale</a>
+				<a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> Condivisione File</a>
+				<a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> Crittografia File</a>
+				<a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+				<a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Produttività</a>
+				<a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Reti Autonome</a>
+				<a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Rimozione Metadati</a>
+				<a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Server Cloud Self-Hosted</a>
+				<a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Sincronizzazione Calendario/Contatti</a>
+				<a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Sincronizzazione File</a>
+				</span>
+			</details>
+
+			<!-- OS -->
+			<details class="nav-details">
+				<summary>
+				<span class="nav-summary">
+					OS <span class="dropdown-toggle"></span>
+				</span>
+				</summary>
+				<span class="nav-dropdown">
+				<a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> SO PC</a>
+				<a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> SO PC Live</a>
+				<a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> SO Mobile</a>
+				<a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> Add-on per Android</a>
+				<a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> Firmware per Router</a>
+				<a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> Non usare Windows 10</a>
+				</span>
+			</details>
+
+			<a class="nav-anchor" href="/index.html#participate">Partecipa</a>
+		</div>
+
+		<!-- Elements on the right -->
+		<div id="nav-right">
+			<a href="/services/" class="nav-anchor">Servizi</a>
+			<a href="https://blog.privacytools.io/" class="nav-anchor">Blog</a>
+			<a href="https://www.privacytools.io/sponsors/" class="nav-anchor">Sponsor</a>
+			<a href="/about/" class="nav-anchor">Su di Noi</a>
+			<span id="nav-switch-theme" class="nav-anchor">
+				<span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Tema"></span>
+				<span class="sr-only">Cambia Tema</span>
+			</span>
+			<details class="nav-details">
+				<summary>
+					<span class="nav-summary">
+						<!-- Language (not localized on purpose) -->
+						<span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+						<span class="sr-only">Language Selection</span>
+						<span class="dropdown-toggle"></span>
+					</span>
+				</summary>
+				<span class="nav-dropdown">
+					<a href="https://www.privacytools.io/" class="dropdown-item">English</a>
+					<a href="https://privacytools.twngo.xyz/" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+					<a href="https://victorhck.gitlab.io/privacytools-es/" rel="nofollow noopener" class="dropdown-item">Español</a>
+					<a href="https://pl.privacytools.io/" rel="nofollow noopener" class="dropdown-item">Polski</a>
+					<a href="https://www.privacidade.digital/" rel="nofollow noopener" class="dropdown-item">Português</a>
+					<a href="https://privacytools.it-sec.rocks/" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+					<a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
+					<a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
+				</span>
+			</details>
+		</div>
+	</div>
+	</nav>
+</div>
+
+			<div id="top" class="py-4"></div>
+		</header>
+		<div class="container" role="main">
+  <main>
+  <nav id="breadcrumb" aria-label="breadcrumb">
+	
+	<ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li class="breadcrumb-item"><a href="/"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+		
+			
+				<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a href="/providers/" itemprop="item"><span itemprop="name">Providers</span></a>
+				<meta itemprop="position" content="1" />
+				</li>
+			
+		
+			
+				<li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<link href="/providers/dns/" itemprop="item"/>
+				<span itemprop="name">DNS</span>
+				<meta itemprop="position" content="2" />
+				</li>
+			
+		
+	</ol>
+</nav>
+
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Resolver DNS Criptati</h1>
+  <p class="lead">Non permettere a Google di vedere tutto il tuo traffico DNS. Scopri alternative incentrate sulla privacy ai tradizionali DNS.</p>
+</div>
+
+<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Resolver Domain Name System (DNS) Criptati</h1>
+
+<div class="alert alert-warning" role="alert">
+	<strong>
+	Nota: Usare un resolver DNS criptato non ti renderà anonimo, né nasconderà il tuo traffico internet dal tuo Internet Service Provider (ISP).
+	Ma impedirà il DNS hijacking (il dirottamento delle richieste al server DNS), renderà le richieste DNS ancora più difficili da intercettare e manipolare.
+	Se in questo momento stai utilizzando il resolver DNS di Google, dovresti scegliere una di queste alternative.
+	</strong>
+</div>
+
+<div class="table-responsive">
+	<table class="table sortable-theme-bootstrap" data-sortable>
+		<thead>
+			<tr>
+				<th data-sorted="true" data-sorted-direction="ascending">Provider DNS</th>
+				<th data-sortable="true">Ubicazione Server</th>
+				<th data-sortable="false">Privacy Policy</th>
+				<th data-sortable="true">Tipo</th>
+				<th data-sortable="true">Logging</th>
+				<th data-sortable="true">Protocolli</th>
+				<th data-sortable="true">DNSSEC</th>
+				<th data-sortable="true">Minim. QNAME</th>
+				<th data-sortable="true">Filtri</th>
+				<th data-sortable="true">Codice Sorgente</th>
+				<th data-sortable="true">Provider Hosting</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td data-value="AdGuard"><a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a></td>
+				<td>Anycast (sede a <span class="no-text-wrap"><span class="flag-icon flag-icon-cy"></span> Cipro)</span></td>
+				<td><a class="btn-secondary btn-icon" href="https://adguard.com/en/privacy/dns.html"><span class="fas fa-globe"></span></a></td>
+				<td>Commerciale</td>
+				<td>No</td>
+				<td>DoH, DoT, DNSCrypt</td>
+				<td>Sì</td>
+				<td>Sì</td>
+				<td>
+					<span class="no-text-wrap">Annunci, tracker,</span>
+					<span class="no-text-wrap">domini malevoli</span>
+				</td>
+				<td><a class="btn-secondary btn-icon" href="https://github.com/AdguardTeam/AdGuardDNS/"><span class="fas fa-globe"></span></a></td>
+				<td><span class="no-text-wrap"><a href="https://flops.ru/en/about.html">Serveroid, LLC</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="BlahDNS"><a href="https://blahdns.com/">BlahDNS</a></td>
+			<td>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-fi"></span> Finlandia,</span>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-de"></span> Germania,</span>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-jp"></span> Giappone</span>
+			</td>
+			<td><div class="btn-secondary btn-icon" title="&quot;No log.&quot;" data-toggle="tooltip" data-placement="bottom"><span class="fas fa-globe"></span></div></td>
+			<td>Hobby</td>
+			<td>No</td>
+			<td data-value="dot/443">
+				<span class="no-text-wrap">
+					DoH,
+					<span data-toggle="tooltip" data-placement="bottom" data-original-title="Porte supportate: 443 e 853">
+						DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
+					</span>
+				</span>
+				DNSCrypt
+			</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td>
+				<span class="no-text-wrap">Annunci, tracker,</span>
+				<span class="no-text-wrap">domini malevoli
+					<span class="badge badge-warning" data-toggle="tooltip" data-original-title="E alcune wildcard e domini IDN."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+				</span>
+			</td>
+			<td><a class="btn-secondary btn-icon" href="https://github.com/ookangzheng/blahdns/"><span class="fas fa-globe"></span></a></td>
+			<td>
+				<span class="no-text-wrap"><a href="https://www.choopa.com/">Choopa, LLC</a>,</span>
+				<span class="no-text-wrap"><a href="https://www.datacenterlight.ch/">Data Center Light</a>,</span>
+				<span class="no-text-wrap"><a href="https://www.hetzner.com/">Hetzner Online GmbH</a></span>
+			</td>
+			</tr>
+
+			<tr>
+			<td data-value="Cloudflare"><a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare è una delle reti più grandi al mondo, ed un problema se si considera l'anonimato e la decentralizzazione."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span></td>
+			<td>Anycast (sede negli <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> USA)</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://www.cloudflare.com/privacypolicy/"><span class="fas fa-globe"></span></a></td>
+			<td>Commerciale</td>
+			<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«Raccoglieremo dati limitati sulle richieste DNS inoltrate ai nostri resolver. Questi dati non contengono gli indirizzi IP degli utenti o qualsiasi altra informazione personalmente identificabile, e l'insieme dei dati è conservato per 24 ore.»" href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Parziale</a></td>
+			<td>DoH, DoT, DNSCrypt</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td>No</td>
+			<td>?</td>
+			<td>Self</td>
+			</tr>
+
+			<tr>
+			<td data-value="CZ.NIC"><a href="https://www.nic.cz/odvr/">CZ.NIC</a></td>
+			<td><span class="no-text-wrap"><span class="flag-icon flag-icon-cz"></span> Repubblica Ceca</span></td>
+			<td><div class="btn-secondary btn-icon" title="&quot;I resolver CZ.NIC non raccolgono né informazioni personalmente identificabili né raccoglie informazioni sulle pagine nelle quali il tuo computer invia dati personali.&quot;" data-toggle="tooltip" data-placement="bottom"><span class="fas fa-globe"></span></div></td>
+			<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«CZ.NIC è un'associazione di entità giuridiche, fondata nel 1998 da importanti fornitori di servizi Internet.»" href="https://www.nic.cz/page/351/about-association/">Associazione</a></td>
+			<td>No</td>
+			<td>DoH, DoT</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td data-value="No">?</td>
+			<td>?</td>
+			<td>Self</td>
+			</tr>
+
+			<tr>
+			<td data-value="dnswarden"><a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a></td>
+			<td><span class="no-text-wrap"><span class="flag-icon flag-icon-de"></span>Germania</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc"><span class="fas fa-globe"></span></a></td>
+			<td>Hobby</td>
+			<td>No</td>
+			<td data-value="dot/443">
+				<span class="no-text-wrap">
+					DoH,
+					<span data-toggle="tooltip" data-placement="bottom" data-original-title="Porte supportate: 443 e 853">
+						DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
+					</span>
+				</span>
+				DNSCrypt
+			</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td><span class="no-text-wrap">Dipende dal server</span></td>
+			<td>?</td>
+			<td><span class="no-text-wrap"><a href="https://www.hetzner.com/">Hetzner Online GmbH</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="Foundation for Applied Privacy"><a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a></td>
+			<td>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-at"></span> Austria</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://appliedprivacy.net/privacy-policy"><span class="fas fa-globe"></span></a></td>
+			<td>No-Profit</td>
+			<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«NON conserviamo il tuo indirizzo IP o richieste DNS durante le normali operazioni. NON cediamo i dati sulle richieste a terzi che non sono direttamente coinvolti con la risoluzione delle query (ad es. l'invio delle richieste a nameserver autoritari per la risoluzione).»" href="https://appliedprivacy.net/privacy-policy/">Parziale</a></td>
+			<td data-value="dot/443">
+				<span class="no-text-wrap">
+					DoH,
+					<span data-toggle="tooltip" data-placement="bottom" data-original-title="Porte supportate: 443 e 853">DoT <span class="fas fa-info-circle fa-sm text-secondary"></span></span>
+				</span>
+			</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td>No</td>
+			<td>?</td>
+			<td><span class="no-text-wrap"><a href="https://www.ipax.at/">IPAX OG</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="nextdns"><a href="https://www.nextdns.io/">NextDNS</a></td>
+			<td>Anycast (sede negli <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> USA)</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://www.nextdns.io/privacy"><span class="fas fa-globe"></span></a></td>
+			<td>Commerciale</td>
+			<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«Alcune funzionalità richiedono la conservazione dei dati. In quel caso, diamo ai nostri utenti la possibilità di disabilitare completamente o in gran parte di queste funzioni (e la conservazione dei dati che ne deriva), e manteniamo fin da subito la promessa.»" href="https://www.nextdns.io/privacy">A scelta dell'utente</a></td>
+			<td>DoH, DoT, DNSCrypt</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td>A scelta dell'utente</td>
+			<td>?</td>
+			<td>Self</td>
+			</tr>
+
+			<tr>
+				<td data-value="NixNet"><a href="https://nixnet.xyz/dns/">NixNet</a></td>
+				<td>
+					<span class="no-text-wrap">Anycast (sede negli <span class="flag-icon flag-icon-us"></span> USA),</span>
+					<span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> USA,</span>
+					<span class="no-text-wrap"><span class="flag-icon flag-icon-lu"></span> Lussemburgo</span>
+				</td>
+				<td><a class="btn-secondary btn-icon" href="https://nixnet.xyz/privacy/"><span class="fas fa-globe"></span></a></td>
+				<td>
+					<a data-toggle="tooltip" data-placement="bottom" data-original-title='Parte di LibreHosters, "una rete cooperativa e solidale che utilizza il software libero per incoraggiare la decentralizzazione attraverso la federazione e piattaforme distribuite."' href="https://libreho.st/">
+					Collettivo
+					</a>
+				</td>
+				<td>No</td>
+				<td>DoH, DoT</td>
+				<td>Sì</td>
+				<td>Sì</td>
+				<td><span class="no-text-wrap">Dipende dal server</span></td>
+				<td><a class="btn-secondary btn-icon" href="https://git.nixnet.xyz/NixNet/dns"><span class="fas fa-globe"></span></a></td>
+				<td><span class="no-text-wrap"><a href="https://frantech.ca/">FranTech Solutions</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="PowerDNS"><a href="https://powerdns.org/">PowerDNS</a></td>
+			<td><span class="no-text-wrap"><span class="flag-icon flag-icon-nl"></span> Paesi Bassi</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://powerdns.org/doh/privacy.html"><span class="fas fa-globe"></span></a></td>
+			<td>Hobby</td>
+			<td>No</td>
+			<td>DoH</td>
+			<td>Sì</td>
+			<td>No</td>
+			<td>No</td>
+			<td><a class="btn-secondary btn-icon" href="https://github.com/PowerDNS/pdns"><span class="fas fa-globe"></span></a></td>
+			<td><span class="no-text-wrap"><a href="https://www.transip.nl/">TransIP B.V. Admin</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="Quad9"><a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Fondato della Global Cyber Alliance composta da: Polizia della Città di Londra e l'Ufficio del Procuratore Distrettuale di Manhattan"><i class="fas fa-exclamation-triangle"></i></span></td>
+			<td>Anycast (sede negli <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> USA)</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://quad9.net/policy/"><span class="fas fa-globe"></span></a></td>
+			<td>No-Profit</td>
+			<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«La nostra normale gestione dei dati non prevede la conservazione su disco di indirizzi IP o informazioni identificabili personalmente né la trasmissione al di fuori del luogo dove la richiesta è stata ricevuta.»" href="https://quad9.net/policy/">Parziale</a></td>
+			<td>DoH, DoT, DNSCrypt</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td><span class="no-text-wrap">Domini malevoli</span></td>
+			<td>?</td>
+			<td>
+				Self,
+				<span class="no-text-wrap"><a href="https://www.pch.net/">Packet Clearing House</a></span>
+			</td>
+			</tr>
+
+			<tr>
+			<td data-value="SecureDNS"><a href="https://securedns.eu/">SecureDNS</a></td>
+			<td><span class="no-text-wrap"><span class="flag-icon flag-icon-nl"></span> Paesi Bassi</span></td>
+			<td><a class="btn-secondary btn-icon" href="https://securedns.eu/#privacy"><span class="fas fa-globe"></span></a></td>
+			<td>Hobby</td>
+			<td>No</td>
+			<td>DoH, DoT, DNSCrypt</td>
+			<td>Sì</td>
+			<td>Sì</td>
+			<td><span class="no-text-wrap">Dipende dal server</span></td>
+			<td>?</td>
+			<td><span class="no-text-wrap"><a href="https://www.digitalocean.com/">DigitalOcean, Inc.</a></span></td>
+			</tr>
+
+			<tr>
+				<td data-value="Snopyta"><a href="https://snopyta.org/service/dns/index.html">Snopyta</a></td>
+				<td>
+					<span class="no-text-wrap"><span class="flag-icon flag-icon-fi"></span> Finlandia</span>
+				</td>
+				<td><a class="btn-secondary btn-icon" href="https://snopyta.org/privacy_policy/"><span class="fas fa-globe"></span></a></td>
+				<td><a data-toggle="tooltip" data-placement="bottom" data-original-title="Parte di LibreHosters, &quot;una rete cooperativa e solidale che utilizza il software libero per incoraggiare la decentralizzazione attraverso la federazione e piattaforme distribuite.&quot;" href="https://libreho.st/">Collettivo</a>
+				</td>
+				<td>No</td>
+				<td>DoH, DoT</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td><span class="no-text-wrap">No</span></td>
+				<td>?</td>
+				<td><span class="no-text-wrap"><a href="https://www.hetzner.com/">Hetzner Online GmbH</a></span></td>
+			</tr>
+
+			<tr>
+			<td data-value="UncensoredDNS"><a href="https://blog.uncensoreddns.org/">UncensoredDNS</a></td>
+			<td>
+				Anycast (sede in <span class="no-text-wrap"><span class="flag-icon flag-icon-dk"></span> Danimarca),</span>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-dk"></span> Danimarca,</span>
+				<span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> USA</span>
+			</td>
+			<td><div class="btn-secondary btn-icon" title="&quot;Assolutamente nulla viene registrato, né sugli utenti né sull'utilizzo del servizio. Conservo dei grafici che rappresentano il numero totale di richieste ma non viene salvata alcuna informazione identificabile personalmente. I dati che vengono salvati non saranno mai venduti o utilizzati per altri scopi al di fuori della pianificazione della capacità del servizio.&quot;" data-toggle="tooltip" data-placement="bottom"><span class="fas fa-globe"></span></div></td>
+			<td>Hobby</td>
+			<td>No</td>
+			<td data-value="doh">DoT</td>
+			<td>Sì</td>
+			<td>No</td>
+			<td>No</td>
+			<td>?</td>
+			<td>
+				Self,
+				<span class="no-text-wrap"><a href="https://www.teliacompany.com">Telia Company AB</a></span>
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<h4>Terminologie</h4>
+
+<ul>
+<li>DNS-over-TLS (DoT) - Un protocollo di sicurezza per DNS criptati sulla porta dedicata 853. Alcuni provider supportano la porta 443 che generalmente funziona ovunque, mentre la porta 853 viene spesso bloccata da firewall restrittivi. DoT ha due modalità:</li>
+	<ul>
+	<li>Oppurtunistica: il client tenta di creare una connessione DNS-over-TLS al server attraverso la porta 853 senza validarne il certificato. Se fallisce, utilizzerà DNS non criptati. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="In parole povere con la modalità automatica il tuo traffico DNS rimane vulnerabile agli attacchi SSL strip e MITM"><i class="fas fa-exclamation-triangle"></i></span></li>
+	<li>Restrittiva: il client si connette ad un hostname specifico e ne valida il certificato. Se fallisce, non viene effettuata alcuna query DNS finché la validazione non avrà successo.</li>
+	</ul>
+<li>DNS-over-HTTPS (DoH) - Simile a DoT, ma utilizza invece HTTPS, così da essere indistinguibile dal "normale" traffico HTTPS sulla porta 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contiene metadati come l'user-agent (che potrebbe includere informazioni sul sistema) che vengono trasmessi al server DNS."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+<li>DNSCrypt - Più vecchio ma robusto metodo per criptare i DNS.</li>
+</ul>
+
+<h4>Come verificare se il DNS è criptato</h4>
+
+<ul>
+	<li>DoH / DoT
+	<ul>
+		<li>Controlla <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Il tuo provider DNS potrebbe non apparire con il proprio nome, quindi confronta le risposte con ciò che conosci o puoi trovare riguardo al tuo provider DNS. Assicurati solo che non ci appaia il tuo ISP o il precedente provider DNS non criptato."><i class="fas fa-exclamation-triangle"></i></span></li>
+		<li>Controlla il sito web del tuo provider DNS. Potrebbero avere una pagina che ti dice "stai utilizzando il nostro DNS." Esempi includono <a href="https://adguard.com/it/adguard-dns/overview.html">AdGuard</a> e <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
+		<li>Se stai usando il trusted recursive resolver (TRR) di Firefox, apri <code>about:networking#dns</code>. Se la colonna TRR riporta "true" in alcuni campi, stai utilizzando DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Alcuni campi riporteranno "false" in base al valore di network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+	</ul>
+	</li>
+	<li>dnscrypt-proxy - Controlla <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">la wiki di dnscrypt-proxy su come verificare se i tuoi DNS sono criptati</a>.</li>
+	<li>DNSSEC - Controlla <a href="https://dnssec.vs.uni-due.de/">il DNSSEC Resolver Test di Matthäus Wander</a>.</li>
+	<li>Minimizzazione QNAME - Esegui il comando <code>dig +short txt qnamemintest.internet.nl</code> dalla riga di comando (preso da <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">questa presentazione di NLnet Labs</a>). Se stai usando Windows 10, esegui <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> dalla PowerShell. Dovresti poter visualizzare questo messaggio: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+</ul>
+
+<h3 id="clients">Consigli sui Software e Ulteriori Informazioni</h3>
+
+<ul>
+<li><strong>Client DNS Criptati per Desktop:</strong>
+	<ul>
+		<li><em>Firefox</em> ha il supporto integrato a DoH con Cloudflare impostato come resolver predefinito ma può essere configurato per utilizzare qualsiasi resolver DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="«Cloudflare ha acconsentito alla raccolta limitata di dati sulle richieste DNS inviate al resolver di Cloudflare per Firefox attraverso il browser Firefox.»"><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Al momento Mozilla sta <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducendo degli studi</a> prima di attivare DoH in modo predefinito per tutti gli utenti Firefox residenti negli USA.</li>
+		<ul>
+		<li>DNS over HTTPS può essere abilitato in Menu -> Impostazioni (<code>about:preferences</code>) -> Impostazioni di rete -> Attiva DNS over HTTPS. Imposta "Usa Provider" su "Personalizzato" ed inserisci l'indirizzo del tuo provider DoH.</li>
+		<li>Gli utenti avanzati possono abilitarlo in <code>about:config</code> impostando <code>network.trr.custom_uri</code> e <code>network.trr.uri</code> con l'indirizzo che si trova nella documentazione del provider DoH e <code>network.trr.mode</code> su <code>2</code>. Potrebbe essere auspicabile impostare <code>network.security.esni.enabled</code> su <code>True</code> per attivare SNI criptato e rendere i siti che supportano ESNI un po' più difficili da rintracciare.</li>
+		</ul>
+	</ul>
+</li>
+
+<li><strong>Client DNS Criptati per Mobile:</strong>
+	<ul>
+	<li><em>Android 9</em> ha già un client DoT di <a href="https://support.google.com/android/answer/9089903?hl=it">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...ma con alcune avvertenze"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+		<ul><li>Noi consigliamo di selezionare <em>Nome host del provider DNS privato</em> ed inserire l'indirizzo DoT che trovi nella documentazione del tuo provider DoT per attivare la modalità restrittiva (vedi i Termini qui sopra). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="Se sei in una rete che blocca l'accesso alla porta 853, Android restituirà un errore dicendo che la rete non dispone di un accesso ad Internet."><i class="fas fa-exclamation-triangle"></i></span></li></ul>
+	<li><em><a href="https://apps.apple.com/it/app/id1452162351">DNSCloak</a></em> - Un client DNSCrypt e DoH <a href="https://github.com/s-s/dnscloak">open-source</a> per iOS creato dal <td><a data-toggle="tooltip" data-placement="bottom" data-original-title="«Un'organizzazione benefica no-profit per progetti internazionali di software libero.»" href="https://techcultivation.org/">Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
+	<li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - Un'applicazione open source per Android che supporta DoH e DoT. Supporta anche il caching delle risposte DNS e il logging locale delle query DNS.</li>
+	</ul>
+</li>
+
+<li><strong>Server DNS Locali:</strong>
+	<ul>
+	<li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - Un'applicazione <a href="https://github.com/getdnsapi/stubby">open-source</a> per Linux, macOS e Windows che funge da resolver DNS Privacy stub locale utilizzando DoT.</li>
+	<li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - server DNS ricorsivo, con cache e validazione. Può anche essere utilizzato a livello di rete e supporta DNS-over-TLS a partire dalla versione 1.7.3.</li>
+	<ul>
+		<li>Vedi anche <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">DNS over TLS veramente sicuro in Unbound su ctrl.blog</a>.</li>
+	</ul>	
+</ul>
+</li>
+
+<li><strong>Server DNS a livello di rete:</strong>
+	<ul>
+	<li><em><a href="https://pi-hole.net/">Pi-hole</a></em> - Un server DNS a livello di rete per Raspberry Pi. Blocca gli annunci e tracker per tutti i dispositivi connessi alla rete.</li>
+	<li><em><a href="https://gitlab.com/quidsup/notrack">NoTrack</a></em> - Un server DNS a livello di rete che blocca i siti web utilizzati per il tracking. Al momento funziona con Debian ed Ubuntu.</li>
+	</ul>
+</li>
+
+<li><strong>Ulteriori Letture:</strong>
+	<ul>
+		<li>Riguardo Firefox, DoH e ESNI</li>
+			<ul>
+			<li><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Trusted Recursive Resolver (DoH) su MozillaWiki</a></li>
+			<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">Bug report per Firefox che chiede di poter utilizzare ESNI senza DoH</a></li>
+			<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Bug report per Firefox che chiede di poter utilizzare DNS privato (DoT) di Android 9 e beneficiare di ESNI senza dover attivare DoH</a></li>
+			<li><a href="https://blog.cloudflare.com/encrypted-sni/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
+			</ul>
+		<li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">Minimizzazione QNAME e la Tua Privacy</a> dall'Internet Systems Consortium (ISC)</li>
+		<li><a href="https://www.isc.org/dnssec/">DNSSEC e BIND 9</a> dall'ISC</li>
+	</ul>
+</li>
+</ul>
+
+
+  </main>
+  <footer>
+  <footer>
+<hr class="footer-divider" />
+
+<h3 id="participate">Spargi la voce ed aiuta i tuoi amici</h3>
+
+<div class="row mb-4">
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="mailto:?subject=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&body=https://privacytools-it.github.io" class="share-btn email" title="Email">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://privacytools-it.github.io" class="share-btn facebook" title="Facebook">
+<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://twitter.com/share?text=Conoscenza%20e%20strumenti%20per%20proteggere%20la%20tua%20privacy%20contro%20la%20sorveglianza%20di%20massa%20globale%20&amp;url=https://privacytools-it.github.io&amp;via=privacytoolsIO" class="share-btn twitter" title="Twitter">
+<i class="fab fa-twitter"></i>
+</a>
+
+<a href="https://sharetomastodon.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn mastodon" title="Mastodon">
+<i class="fab fa-mastodon"></i>
+</a>
+</div>
+
+<div class="col-12 col-md-6 d-flex justify-content-between">
+<a href="https://reddit.com/submit?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn reddit" title="reddit">
+<i class="fab fa-reddit-alien"></i>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn linkedin" title="LinkedIn">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://mix.com/mixit?su=submit&url=https://privacytools-it.github.io&title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale" class="share-btn mix" title="Mix">
+<i class="ptio-mix"></i>
+</a>
+
+<a href="https://sharetodiaspora.github.io/?title=privacytools-it%20-%20protezione%20contro%20la%20sorveglianza%20di%20massa%20globale&url=https://privacytools-it.github.io" class="share-btn diaspora" title="Diaspora*">
+<i class="fas fa-asterisk"></i>
+</a>
+</div>
+</div>
+
+<h3>Copia l'URL e la Descrizione</h3>
+
+<p>
+<input type="text" value="PrivacyTools - Crittografia e strumenti per la protezione contro la sorveglianza di massa globale - https://privacytools-it.github.io" class="form-control input-lg onclick-select" readonly>
+<span class="help-block">Clicca sul campo di testo per selezionare tutto il suo contenuto.</span>
+</p>
+
+<hr class="footer-divider">
+
+<div class="row mt-3">
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+<a href="/LICENSE.txt" title="Quest'opera è libera. La puoi redistribuire e/o modificare secondo i termini di licenza &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;." data-toggle="tooltip" data-placement="top">CC0</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="far fa-address-card fa-2x mr-2"></span> <a href="/about/">Chi Siamo &amp; Contatti</a>
+</div>
+
+<div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+<span class="fas fa-donate fa-2x mr-2"></span><a data-toggle="tooltip" data-placement="top" data-original-title="Per favore supporta questo progetto con una donazione. Non abbiamo pubblicità e non siamo affiliati con nessun servizio. La tua donazione coprirà i costi per server e domini." href="/donate/">Supportaci!</a>
+</div>
+</div>
+
+<br>
+
+<p>Ho deciso di tradurre <a href="https://www.privacytools.io/">PrivacyTools</a> per poter rendere accessibili alla comunità italiana le informazioni e gli strumenti per proteggersi contro la sorveglianza di massa globale nella società tecnologica attuale.</p>
+
+<p><strong>Questo sito è una traduzione.</strong> Puoi seguire tutte le "commit" del sito originale in Inglese - che verranno integrate in questa versione tradotta - <a href="https://github.com/privacytoolsIO/privacytools.io/commits/master">su GitHub</a>.
+Se vuoi contribuire a PrivacyTools con dei miglioramenti o semplicemente inviare dei suggerimenti puoi farlo <a href="https://github.com/privacytoolsIO/privacytools.io">tramite GitHub</a> o <a href="https://www.reddit.com/r/privacytoolsIO/">Reddit</a>.</p>
+
+<p>Se hai trovato uno o più errori di traduzione o un problema con questa versione del sito, <a href="/about/">contattami</a>.</p>
+
+<p><a href="https://github.com/privacytools-it/privacytools-it.github.io/commits/master">
+	Ultima modifica al sito:
+	30
+	
+	
+	2020
+</a></p>
+
+<div class="copyright-text">
+	<a href="/about/javascript" data-jslicense="1"><span class="fab fa-js fa-lg"></span> Licenze JavaScript</a>
+	<p class="mt-2">
+		<strong>Nessuna pubblicità, niente Google Analytics, nessuna affiliazione, nessuna richiesta cross-site.</strong>
+		<em>PrivacyTools è un sito motivato dalla comunità che mette a disposizione informazioni sulla sicurezza dei dati e privacy. Non fidarti mai di nessuna compagnia quando si tratta della tua privacy, cripta sempre.</em>
+	</p>
+	<small><p><a href="/privacy/">Informativa sulla Privacy</a> | <a href="/notices/">Avvisi &amp; Liberatorie</a></small>
+</div>
+</footer>
+
+  </footer>
+</div>
+
+		<script src="/assets/js/jquery-3.3.1.min.js?v=2"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/sortable.min.js?v=2"></script>
+<script src="/assets/js/main.js?v=4"></script>
+
+	</body>
+</html>
